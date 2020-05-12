@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EmbededPhotoCell" id="aFt-qr-IGw" customClass="EmbededResourceCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="111"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="125" height="111"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gnx-ec-3qq"/>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnl-2K-5dU">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Vf4-a4-OFO"/>
+                            <constraint firstAttribute="height" constant="40" id="cG5-6n-eOl"/>
+                        </constraints>
+                        <inset key="contentEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="15"/>
+                        <state key="normal" image="DeleteIcon"/>
+                        <connections>
+                            <action selector="deleteButtonPressed:" destination="aFt-qr-IGw" eventType="touchUpInside" id="xfX-iL-BSR"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Gnx-ec-3qq" firstAttribute="leading" secondItem="aFt-qr-IGw" secondAttribute="leading" id="Drf-1s-6HI"/>
+                <constraint firstAttribute="trailing" secondItem="qnl-2K-5dU" secondAttribute="trailing" constant="5" id="MBh-Tm-UXp"/>
+                <constraint firstItem="Gnx-ec-3qq" firstAttribute="top" secondItem="aFt-qr-IGw" secondAttribute="top" id="Nme-Th-eum"/>
+                <constraint firstAttribute="trailing" secondItem="Gnx-ec-3qq" secondAttribute="trailing" id="TDY-ql-aD5"/>
+                <constraint firstAttribute="bottom" secondItem="Gnx-ec-3qq" secondAttribute="bottom" id="ltp-t1-gtZ"/>
+                <constraint firstItem="qnl-2K-5dU" firstAttribute="top" secondItem="aFt-qr-IGw" secondAttribute="top" constant="5" id="mcF-kq-Gsg"/>
+            </constraints>
+            <size key="customSize" width="125" height="111"/>
+            <connections>
+                <outlet property="deleteButton" destination="qnl-2K-5dU" id="IEF-aj-KMi"/>
+                <outlet property="imageView" destination="Gnx-ec-3qq" id="JXE-oK-wve"/>
+            </connections>
+            <point key="canvasLocation" x="-6.5" y="44.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="DeleteIcon" width="40" height="40"/>
+    </resources>
+</document>

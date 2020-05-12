@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - pjsip (2.9.0.2)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - pjsip
+  - SocketRocket
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - pjsip
+    - SocketRocket
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  pjsip: faa8aa0e79b341155801b87c2ea3015003d05ed9
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 2f329e5189929296e22f668d0f6be9f639794f8b
+
+COCOAPODS: 1.9.1

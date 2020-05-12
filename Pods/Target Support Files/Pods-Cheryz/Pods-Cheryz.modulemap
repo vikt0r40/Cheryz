@@ -1,0 +1,6 @@
+framework module Pods_Cheryz {
+  umbrella header "Pods-Cheryz-umbrella.h"
+
+  export *
+  module * { export * }
+}

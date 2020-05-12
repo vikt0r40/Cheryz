@@ -1,0 +1,1924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		30379F2CBCE1D24ADA0B31BC3A1269EF /* pjsip */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 748EF21A9D53A1E9E390307FAF61BE80 /* Build configuration list for PBXAggregateTarget "pjsip" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = pjsip;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104276929FED87019E1E369071528206 /* Foundation.framework */; };
+		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C32D2DBA86263685E63AD550178FBEB3 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DA10821566DDF5998047BF8BF349C35D /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DA04C3F5266113613E2A500E0EDD2BCA /* AFImageDownloader.m */; };
+		169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2342CC31350FDE107AE77AB7602F85B /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 5315DC6D096AE1F84D81BE4FE327E3F0 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAC1D3E8517EF715BF7FD0505ED05B4 /* MobileCoreServices.framework */; };
+		25A457883515DB77B5BA7D1C08784A4A /* Pods-Cheryz-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01AF1C1F0F4B638E0E082AE62AEAF565 /* Pods-Cheryz-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9F304E5511FA2C478DC48CF44A6E07 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E8B3F31838856634CF8FC13F84B8D0 /* AFAutoPurgingImageCache.m */; };
+		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD805450DB870734AE924FC27899C20 /* UIButton+AFNetworking.m */; };
+		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 44D646208B056A1A5B5997860FCFACD0 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93DD7A61D904AC5BCF9ADBAB20D384 /* AFNetworking-dummy.m */; };
+		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B05F10C10B3379FDFA7ACDC81315CCF /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165364F071D2646DE68130B223A5DE23 /* CoreGraphics.framework */; };
+		464BE13CF441D1C49924A2095633E641 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104276929FED87019E1E369071528206 /* Foundation.framework */; };
+		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B11F9B4536571F70BFF6B069CDFCFE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9859BCC40BEF6930B8F1CB3970FE89C /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A32B9396678059078132768AFB24DD61 /* AFNetworkActivityIndicatorManager.m */; };
+		6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F499C9F458B10CAAF842F4F36625B53E /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E6270A8DE1FF565FA4DFED89AA22C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104276929FED87019E1E369071528206 /* Foundation.framework */; };
+		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E2BF6F7618903ABD4168B0D9E8D33B /* SocketRocket-dummy.m */; };
+		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E722F5535CC7D441F7073E8A735F9DC5 /* SRWebSocket.m */; };
+		769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3BE80FC29C6E8DC77DA6487A18138A /* AFSecurityPolicy.m */; };
+		77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F93A49EE3A93269D769EE1F77056A /* AFHTTPSessionManager.m */; };
+		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 505E3D35AD4D2F694758F545FD0E1178 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9B399C60B942E6D6C5E2BA556850B2 /* Pods-Cheryz-CheryzTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15934830730C5391D2FE79E6FB4D4E03 /* Pods-Cheryz-CheryzTests-dummy.m */; };
+		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C53E2D0F78855C9397FA39F227298303 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA00F898BA69CFF6158A23243E29D296 /* AFURLSessionManager.m */; };
+		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 926D01268EAB51CAA3E43826751231D9 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 89790969921978D632ECC2802BBC715E /* UIActivityIndicatorView+AFNetworking.m */; };
+		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EAA40511F289DF301D467F74B53F7A /* AFNetworkReachabilityManager.m */; };
+		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A33C30D8FF2B08AFF2A11A4A984D6E2 /* UIProgressView+AFNetworking.m */; };
+		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E894F7B1D3FF67094FFFE16FE6825E4 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DF05544BB5C7E3F54708AEF2BD93868A /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2B1740C3E45FBC0AE9537860FC361A8 /* Pods-Cheryz-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC61D74093C657E0092F32BB1D4E0F7 /* Pods-Cheryz-dummy.m */; };
+		A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C047B2DFDF5EBD39C31BB64A1DC81E /* AFURLResponseSerialization.m */; };
+		A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC789DC7BF6CA4F2D667E480D2D9C42 /* Security.framework */; };
+		A93BD560DD062BA5B515267570761CBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC789DC7BF6CA4F2D667E480D2D9C42 /* Security.framework */; };
+		A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D77BF726187F1451DC2C7C6103DA65C1 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97C6A099E04BA45BCDDCBBBC0FD23FB1 /* CFNetwork.framework */; };
+		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F8D7A468D1F1EEF8B5621F1E39FB62 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A3BE719D078E240A520F2257E76E5 /* UIImageView+AFNetworking.m */; };
+		AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104276929FED87019E1E369071528206 /* Foundation.framework */; };
+		B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1FBA6A364781C1478F0FF12A803367 /* SystemConfiguration.framework */; };
+		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 603B77B0DDE8D5C179664E8C6A13CF93 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 51454782B1AB0C6A53FA91908B683C4E /* UIRefreshControl+AFNetworking.m */; };
+		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F350DABF2761AE44FF106D8CD0A92D /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB779A2A16FD3CE1324D856AE151DEAD /* Pods-Cheryz-CheryzTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C4EDBC5FEB34DC8D0631BA8356C279 /* Pods-Cheryz-CheryzTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ED339FE401D885E74399EE11EE00E3 /* UIWebView+AFNetworking.m */; };
+		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 75599E7E166B58317EDF5298CDA861CA /* AFURLRequestSerialization.m */; };
+		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 7483BBA4053946F6BDC0A2D245B168B0 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A503035C064931C4B5261C4FC5EB8949 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5AAC515320A9D79EF553437477277C /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D7BA2776E3B600A4F087CDB37F6B1D /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48298E9D3762E281C067C3FCAA5A504E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		B1CF5E704F0A2F83A5A5DBAD309E810C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		CD347BA583FD636BCB8834E5435F818D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
+		};
+		D9B6831D1E7FAED0CC02F46BD3A4759F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30379F2CBCE1D24ADA0B31BC3A1269EF;
+			remoteInfo = pjsip;
+		};
+		DFA93A260E46CC479707B7255A3C1C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30379F2CBCE1D24ADA0B31BC3A1269EF;
+			remoteInfo = pjsip;
+		};
+		ED373175032CBB3655A9C4FB1756449B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EAA40511F289DF301D467F74B53F7A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		01AF1C1F0F4B638E0E082AE62AEAF565 /* Pods-Cheryz-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cheryz-umbrella.h"; sourceTree = "<group>"; };
+		020024ED7A3E9BE63AC945EF9A311F41 /* libpjnath-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjnath-apple-darwin_ios.a"; path = "build/pjproject/src/pjnath/lib/libpjnath-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		025CD13AB5F7717C65B1C557A6224621 /* sip_module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_module.h; path = build/pjproject/src/pjsip/include/pjsip/sip_module.h; sourceTree = "<group>"; };
+		04D08244F861B7C8A01FEA0064B8EEF2 /* time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = time.h; path = build/pjproject/src/pjlib/include/pj/compat/time.h; sourceTree = "<group>"; };
+		04F230A6147174B7C7A5082F41F9738C /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = build/pjproject/src/pjlib/include/pj/config.h; sourceTree = "<group>"; };
+		05ED187F4B7D4B8A8EA2EE183AEB30B0 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		0679359F1B8C430CAC917AB7BEE0A8D9 /* vid_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_port.h; sourceTree = "<group>"; };
+		06F1FBB465E347301D6FB7418AAAB0F0 /* libpjmedia-codec-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjmedia-codec-apple-darwin_ios.a"; path = "build/pjproject/src/pjmedia/lib/libpjmedia-codec-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		078C7A19FEBF395A1A6A59EED6D76CE8 /* sip_auth_aka.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_auth_aka.h; path = build/pjproject/src/pjsip/include/pjsip/sip_auth_aka.h; sourceTree = "<group>"; };
+		07D2028A20193AA0DB36F2941948CC71 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/md5.h"; sourceTree = "<group>"; };
+		0826657C6E938BC3F31EEE376DB3D59E /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/types.h"; sourceTree = "<group>"; };
+		08B11F9B4536571F70BFF6B069CDFCFE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		0A6FE40951E4FE18E6B8E606BBE3C3AA /* malloc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = malloc.h; path = build/pjproject/src/pjlib/include/pj/compat/malloc.h; sourceTree = "<group>"; };
+		0BAB89F735715AEC3265C2006718E205 /* avi_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avi_stream.h; path = build/pjproject/src/pjmedia/include/pjmedia/avi_stream.h; sourceTree = "<group>"; };
+		0CAC1D3E8517EF715BF7FD0505ED05B4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		0E68087213B3D988DB548545A424AE63 /* string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/string.h"; sourceTree = "<group>"; };
+		103615BD6ABD5B34433F6079BB5CF3CF /* libpj-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpj-apple-darwin_ios.a"; path = "build/pjproject/src/pjlib/lib/libpj-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		104276929FED87019E1E369071528206 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		10CF5278ED613701EEDF3968F0990C62 /* Pods-Cheryz-CheryzTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cheryz-CheryzTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1285D9D5BF6A4C429A107715B696BA3A /* vid_toolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_toolbox.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/vid_toolbox.h"; sourceTree = "<group>"; };
+		12D4A732E60989D4E97DD76540BEF45A /* Pods-Cheryz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cheryz.debug.xcconfig"; sourceTree = "<group>"; };
+		131D70E19E692595D964D75CBDE69414 /* setjmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = setjmp.h; path = build/pjproject/src/pjlib/include/pj/compat/setjmp.h; sourceTree = "<group>"; };
+		137AD0A35568B07035C9FFC05C926034 /* videodev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videodev.h; path = "build/pjproject/src/pjmedia/include/pjmedia-videodev/videodev.h"; sourceTree = "<group>"; };
+		149A13A5FA4B1B85A58B117CA7F31A87 /* audiodev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audiodev.h; path = build/pjproject/src/pjmedia/include/pjmedia/audiodev.h; sourceTree = "<group>"; };
+		14BEF294EA792316CA8255E16D34434F /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = build/pjproject/src/pjlib/include/pj/types.h; sourceTree = "<group>"; };
+		14E69E317A0BF487F92A8E9E6C70FC65 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/sha1.h"; sourceTree = "<group>"; };
+		15934830730C5391D2FE79E6FB4D4E03 /* Pods-Cheryz-CheryzTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cheryz-CheryzTests-dummy.m"; sourceTree = "<group>"; };
+		164F2EBE45C3069C03F856B70A9C1E0F /* pjmedia_videodev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjmedia_videodev.h; path = build/pjproject/src/pjmedia/include/pjmedia_videodev.h; sourceTree = "<group>"; };
+		165364F071D2646DE68130B223A5DE23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		16959B7D35B113162E5DA294E91D3AF7 /* sip_auth_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_auth_msg.h; path = build/pjproject/src/pjsip/include/pjsip/sip_auth_msg.h; sourceTree = "<group>"; };
+		16CF3742374B04FD97181EEB1884C409 /* libwebrtc-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libwebrtc-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libwebrtc-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		173686E6762CDA3AE7A99EFA69E04182 /* stun_auth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_auth.h; path = build/pjproject/src/pjnath/include/pjnath/stun_auth.h; sourceTree = "<group>"; };
+		174AEEF6B725BCD4A03372D646914656 /* config_site.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_site.h; path = build/pjproject/src/pjlib/include/pj/config_site.h; sourceTree = "<group>"; };
+		1793FDC8B0DA0FC31ABAF95D5464E19B /* transport_srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport_srtp.h; path = build/pjproject/src/pjmedia/include/pjmedia/transport_srtp.h; sourceTree = "<group>"; };
+		179C5DDB3FE205F7861BDF3C84F11A24 /* opencore_amr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opencore_amr.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/opencore_amr.h"; sourceTree = "<group>"; };
+		186D0CECBE54F3E48754AEA4AF071974 /* list.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list.h; path = build/pjproject/src/pjlib/include/pj/list.h; sourceTree = "<group>"; };
+		1A15966566AC23835EB597029B1AD3BD /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timer.h; path = build/pjproject/src/pjlib/include/pj/timer.h; sourceTree = "<group>"; };
+		1AFD0F200BE628302BA826B4FB27EF55 /* sip_inv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_inv.h; path = "build/pjproject/src/pjsip/include/pjsip-ua/sip_inv.h"; sourceTree = "<group>"; };
+		1B13F3CA56886C6F2672CD3A91849925 /* master_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = master_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/master_port.h; sourceTree = "<group>"; };
+		1C33FFE9E375029C546B17B9C823F6AA /* rtcp_fb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtcp_fb.h; path = build/pjproject/src/pjmedia/include/pjmedia/rtcp_fb.h; sourceTree = "<group>"; };
+		1C535380E5951A92D69806B016E8E955 /* session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = session.h; path = build/pjproject/src/pjmedia/include/pjmedia/session.h; sourceTree = "<group>"; };
+		1D3BE80FC29C6E8DC77DA6487A18138A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		1D4D4D56F103878B856CE7FF564C8F50 /* stream_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream_common.h; path = build/pjproject/src/pjmedia/include/pjmedia/stream_common.h; sourceTree = "<group>"; };
+		1DFEF0FFABD16AF9E0ACBC74ED889E0E /* h264_packetizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = h264_packetizer.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/h264_packetizer.h"; sourceTree = "<group>"; };
+		1E058313FA3880431E9506DF780179C3 /* persistent.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = persistent.hpp; path = build/pjproject/src/pjsip/include/pjsua2/persistent.hpp; sourceTree = "<group>"; };
+		1EE1F66C2660959403302057574660EF /* cc_msvc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_msvc.h; path = build/pjproject/src/pjlib/include/pj/compat/cc_msvc.h; sourceTree = "<group>"; };
+		1F93DD7A61D904AC5BCF9ADBAB20D384 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		2081EFC4B4FC59ECC522A7A06D5CDD2B /* endpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = endpoint.h; path = build/pjproject/src/pjmedia/include/pjmedia/endpoint.h; sourceTree = "<group>"; };
+		20C22D397AF067226DB86883B83ED055 /* Pods_Cheryz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cheryz.framework; path = "Pods-Cheryz.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D710549703E966F691EC56E6E90B62 /* m_alpha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_alpha.h; path = build/pjproject/src/pjlib/include/pj/compat/m_alpha.h; sourceTree = "<group>"; };
+		22A131A2ED5646CE83275D86B5D89E80 /* size_t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = size_t.h; path = build/pjproject/src/pjlib/include/pj/compat/size_t.h; sourceTree = "<group>"; };
+		22F350DABF2761AE44FF106D8CD0A92D /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		22FD3181491E3B00E3BCC5711CAD5AC1 /* sip_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_parser.h; path = build/pjproject/src/pjsip/include/pjsip/sip_parser.h; sourceTree = "<group>"; };
+		2310D7F49E7FD2F0E7FD7FD5D632945B /* pjsip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pjsip.debug.xcconfig; sourceTree = "<group>"; };
+		252D6F7597FF76AD59DEB15683BE7426 /* json.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = json.hpp; path = build/pjproject/src/pjsip/include/pjsua2/json.hpp; sourceTree = "<group>"; };
+		261049FBF766205D4A669E868417AF3A /* sip_replaces.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_replaces.h; path = "build/pjproject/src/pjsip/include/pjsip-ua/sip_replaces.h"; sourceTree = "<group>"; };
+		2659B550B019BCCA2506794CCFFB832C /* file_access.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_access.h; path = build/pjproject/src/pjlib/include/pj/file_access.h; sourceTree = "<group>"; };
+		2667B98B3608219491FE3B7ECD2366B2 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/errno.h"; sourceTree = "<group>"; };
+		2760D9FC9AA4C7E27E5C3BCC98FFFA57 /* doxygen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doxygen.h; path = build/pjproject/src/pjlib/include/pj/doxygen.h; sourceTree = "<group>"; };
+		27618ECD264D4E46F94928FD56C9CF56 /* pjnath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjnath.h; path = build/pjproject/src/pjnath/include/pjnath.h; sourceTree = "<group>"; };
+		27DABFD99D123692FAC1609DB472308C /* stun_transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_transaction.h; path = build/pjproject/src/pjnath/include/pjnath/stun_transaction.h; sourceTree = "<group>"; };
+		27FA5371C315DB11EE055D197BCD24DF /* sip_event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_event.h; path = build/pjproject/src/pjsip/include/pjsip/sip_event.h; sourceTree = "<group>"; };
+		28152BD4BEC7456AEAB7F1E7989420C3 /* m_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_x86_64.h; path = build/pjproject/src/pjlib/include/pj/compat/m_x86_64.h; sourceTree = "<group>"; };
+		283D63629A700FF56A03D92DE98703D9 /* publish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = publish.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/publish.h"; sourceTree = "<group>"; };
+		2934C3DB133A65818F2A109F84789E4D /* bidirectional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bidirectional.h; path = build/pjproject/src/pjmedia/include/pjmedia/bidirectional.h; sourceTree = "<group>"; };
+		299ACC641963C9504F14E0DC186F2D80 /* presence.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = presence.hpp; path = build/pjproject/src/pjsip/include/pjsua2/presence.hpp; sourceTree = "<group>"; };
+		2C6EAB8AA36E74BC468F96BACFCB833A /* delaybuf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = delaybuf.h; path = build/pjproject/src/pjmedia/include/pjmedia/delaybuf.h; sourceTree = "<group>"; };
+		2C96B6ECC3921A598E36C4B9F34C11BC /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = build/pjproject/src/pjmedia/include/pjmedia/config_auto.h; sourceTree = "<group>"; };
+		2F9641A1273F686DCB22B3543D63B6CF /* Pods-Cheryz-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cheryz-Info.plist"; sourceTree = "<group>"; };
+		30D0B8AC91AE9E6F9FE83300DB2EC049 /* os_palmos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_palmos.h; path = build/pjproject/src/pjlib/include/pj/compat/os_palmos.h; sourceTree = "<group>"; };
+		317B3CEB75B236C79C35C404B274FAA6 /* pjsua2.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = pjsua2.hpp; path = build/pjproject/src/pjsip/include/pjsua2.hpp; sourceTree = "<group>"; };
+		319C17B453D94F36F00E88DDF67ABA4B /* conference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conference.h; path = build/pjproject/src/pjmedia/include/pjmedia/conference.h; sourceTree = "<group>"; };
+		33DC4DF4F81DB702CEFF8867964CFA6F /* config.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = config.hpp; path = build/pjproject/src/pjsip/include/pjsua2/config.hpp; sourceTree = "<group>"; };
+		3424A04D5A187CBA2E29EA55DBFC24B2 /* os_sunos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_sunos.h; path = build/pjproject/src/pjlib/include/pj/compat/os_sunos.h; sourceTree = "<group>"; };
+		3572210E02CEB6B385D285E1A36EA278 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		3700F87C7886AFEACA473C0CDE4D65F8 /* sip_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_msg.h; path = build/pjproject/src/pjsip/include/pjsip/sip_msg.h; sourceTree = "<group>"; };
+		3799A76226F1443396B5856D9319C20C /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = build/pjproject/src/pjlib/include/pj/rand.h; sourceTree = "<group>"; };
+		37E4F0410D2D4B4564E1FA43DDE085F6 /* os_win32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_win32.h; path = build/pjproject/src/pjlib/include/pj/compat/os_win32.h; sourceTree = "<group>"; };
+		38530CAC27D73A8EBF7DDFACD28A2703 /* os_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_auto.h; path = build/pjproject/src/pjlib/include/pj/compat/os_auto.h; sourceTree = "<group>"; };
+		39927EDBDC83BD175921EE9F0B61FDDD /* doxygen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = doxygen.h; path = build/pjproject/src/pjmedia/include/pjmedia/doxygen.h; sourceTree = "<group>"; };
+		39B1E5872A2B87A20677BCC6D36E515D /* Pods-Cheryz-CheryzTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cheryz-CheryzTests-Info.plist"; sourceTree = "<group>"; };
+		3A7070BFA20F5EB513E85EFD43F9192E /* ioqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioqueue.h; path = build/pjproject/src/pjlib/include/pj/ioqueue.h; sourceTree = "<group>"; };
+		3ABCD9A06637DE4CB637D040C93F0A45 /* audio_codecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_codecs.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/audio_codecs.h"; sourceTree = "<group>"; };
+		3CFD3C62FE89F3852C249FD493FBADDB /* echo_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = echo_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/echo_port.h; sourceTree = "<group>"; };
+		4072531EFC6990F2B5C02C56A622255D /* libyuv-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libyuv-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libyuv-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		40EA309351671D69CF9F99CD04A5CD92 /* libilbccodec-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libilbccodec-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libilbccodec-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		41C047B2DFDF5EBD39C31BB64A1DC81E /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		440FAB2B68532D10E334FFAFD33BDF99 /* sock_select.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sock_select.h; path = build/pjproject/src/pjlib/include/pj/sock_select.h; sourceTree = "<group>"; };
+		442427CB88ABEE47A0F9B3BAC35E04F8 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/config.h"; sourceTree = "<group>"; };
+		442B7E3503ADC8E95CAE080743446690 /* libgsmcodec-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libgsmcodec-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libgsmcodec-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4499B5BB8918709D1131B63E9744F464 /* limits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = limits.h; path = build/pjproject/src/pjlib/include/pj/limits.h; sourceTree = "<group>"; };
+		44D646208B056A1A5B5997860FCFACD0 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		4539750D3C01BD16AA55D7ECFB258FC3 /* format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = format.h; path = build/pjproject/src/pjmedia/include/pjmedia/format.h; sourceTree = "<group>"; };
+		45AD607EAB8DEA2A19BB08F9AFA4B0BF /* pool_alt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pool_alt.h; path = build/pjproject/src/pjlib/include/pj/pool_alt.h; sourceTree = "<group>"; };
+		45B7D81CCFD3D416D6DE8BF6C9A990BB /* config_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_auto.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/config_auto.h"; sourceTree = "<group>"; };
+		470343B29BC845A98B2F2253DAF99256 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = build/pjproject/src/pjmedia/include/pjmedia/config.h; sourceTree = "<group>"; };
+		4910A536299931B42D45381DCA1C411D /* sip_transport_loop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transport_loop.h; path = build/pjproject/src/pjsip/include/pjsip/sip_transport_loop.h; sourceTree = "<group>"; };
+		4979AB7DDE668AA856D8CC13F0091B51 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		49901FC9B2FE3804D5D6FD9B84EF6569 /* libopus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopus.a; path = build/opus/dependencies/lib/libopus.a; sourceTree = "<group>"; };
+		4A7201A8B057EC854C72E0E98DA4150D /* libpjsua2-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjsua2-apple-darwin_ios.a"; path = "build/pjproject/src/pjsip/lib/libpjsua2-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4B0E825AB75AF6DFE5782A3638C55488 /* alaw_ulaw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = alaw_ulaw.h; path = build/pjproject/src/pjmedia/include/pjmedia/alaw_ulaw.h; sourceTree = "<group>"; };
+		4C62E88C35120BBF9DD9A31C18F0ABD0 /* libpjsua-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjsua-apple-darwin_ios.a"; path = "build/pjproject/src/pjsip/lib/libpjsua-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		4C94CD4F6918C91CD90174AD155661ED /* l16.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = l16.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/l16.h"; sourceTree = "<group>"; };
+		4CF23E27432004C9822EAE649A8652A3 /* pjmedia_audiodev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjmedia_audiodev.h; path = build/pjproject/src/pjmedia/include/pjmedia_audiodev.h; sourceTree = "<group>"; };
+		4D1FBA6A364781C1478F0FF12A803367 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		4D43AA7C8485B3313D0D40CDEAC42F44 /* g7221.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = g7221.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/g7221.h"; sourceTree = "<group>"; };
+		4D459A317A6FAB5E3A820F4CAD59B248 /* g7221_sdp_match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = g7221_sdp_match.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/g7221_sdp_match.h"; sourceTree = "<group>"; };
+		4D92C8CE5DD031AEB5104E3A0F467B49 /* ipp_codecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ipp_codecs.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/ipp_codecs.h"; sourceTree = "<group>"; };
+		4DD2C0C8AE34B4A28DAE260985A6ABC1 /* stdarg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stdarg.h; path = build/pjproject/src/pjlib/include/pj/compat/stdarg.h; sourceTree = "<group>"; };
+		4FDE4DF6B5F4BCAC7B89BC3D1F4E4202 /* pjlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjlib.h; path = build/pjproject/src/pjlib/include/pjlib.h; sourceTree = "<group>"; };
+		5001DB1468FD2A753C09763DFB48DBD6 /* Pods_Cheryz_CheryzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cheryz_CheryzTests.framework; path = "Pods-Cheryz-CheryzTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		500E2CDDF45DD11A6F04835836E40D8E /* transport_ice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport_ice.h; path = build/pjproject/src/pjmedia/include/pjmedia/transport_ice.h; sourceTree = "<group>"; };
+		505E3D35AD4D2F694758F545FD0E1178 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		506E6F939C2A14C374B3FCB7ACBA3433 /* iscomposing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iscomposing.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/iscomposing.h"; sourceTree = "<group>"; };
+		5103E4E33B2F322E668CFA21FDF6773E /* mem_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mem_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/mem_port.h; sourceTree = "<group>"; };
+		51454782B1AB0C6A53FA91908B683C4E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		51812225F08A5BB35F609D42F1F86A89 /* g711.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = g711.h; path = build/pjproject/src/pjmedia/include/pjmedia/g711.h; sourceTree = "<group>"; };
+		51EFA01DB47252C7CD76A669EA0F3BC4 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = build/pjproject/src/pjnath/include/pjnath/config.h; sourceTree = "<group>"; };
+		5315DC6D096AE1F84D81BE4FE327E3F0 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		5350F5FD4D805156F58D4E29DC40A198 /* os_winuwp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_winuwp.h; path = build/pjproject/src/pjlib/include/pj/compat/os_winuwp.h; sourceTree = "<group>"; };
+		540FD1E4AF6898392AC998FCFB338B8F /* os_rtems.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_rtems.h; path = build/pjproject/src/pjlib/include/pj/compat/os_rtems.h; sourceTree = "<group>"; };
+		5609FB26AC7E5D9D708773C3A8DE1FC0 /* pjsip_simple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsip_simple.h; path = build/pjproject/src/pjsip/include/pjsip_simple.h; sourceTree = "<group>"; };
+		5616FB1F4CB28E7AEFBB10E5DD055065 /* wsola.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wsola.h; path = build/pjproject/src/pjmedia/include/pjmedia/wsola.h; sourceTree = "<group>"; };
+		576E3B2C1FB059455541F57A0573712B /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = build/pjproject/src/pjlib/include/pj/hash.h; sourceTree = "<group>"; };
+		57F7FD257BA3A08E1A4FD00C89A57C96 /* cc_mwcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_mwcc.h; path = build/pjproject/src/pjlib/include/pj/compat/cc_mwcc.h; sourceTree = "<group>"; };
+		582A2338AB0F369A306B1F0CB2AD44D9 /* json.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = json.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/json.h"; sourceTree = "<group>"; };
+		5A726B92DB17BAFD43E1B8F9C43499E0 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/errno.h"; sourceTree = "<group>"; };
+		5A9A16E7DF202AA26B5DD1CF9545297E /* srv_resolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srv_resolver.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/srv_resolver.h"; sourceTree = "<group>"; };
+		5C26F81459DD74C567C0B286202EF80E /* m_powerpc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_powerpc.h; path = build/pjproject/src/pjlib/include/pj/compat/m_powerpc.h; sourceTree = "<group>"; };
+		5D221655E2653F363C475A35141A89F9 /* sip_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_private.h; path = build/pjproject/src/pjsip/include/pjsip/sip_private.h; sourceTree = "<group>"; };
+		5E894F7B1D3FF67094FFFE16FE6825E4 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		5E9B7464DC4FAF35D685BFDE7A1E4DC4 /* rbtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rbtree.h; path = build/pjproject/src/pjlib/include/pj/rbtree.h; sourceTree = "<group>"; };
+		5F3C3A248504515900E6E45B1331B84B /* os_darwinos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_darwinos.h; path = build/pjproject/src/pjlib/include/pj/compat/os_darwinos.h; sourceTree = "<group>"; };
+		603B77B0DDE8D5C179664E8C6A13CF93 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		603D88BA8FE262B12D5C19C0719E4F97 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		60DCDE53AA37E389E9993AF135A35E49 /* unicode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unicode.h; path = build/pjproject/src/pjlib/include/pj/unicode.h; sourceTree = "<group>"; };
+		6158F6FE46BC13BE7D9CE7A0EDF5C8FA /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		63D7BA2776E3B600A4F087CDB37F6B1D /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		63F8D7A468D1F1EEF8B5621F1E39FB62 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		6649C679B6B5C9B895B3FB772974996A /* Pods-Cheryz-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cheryz-acknowledgements.plist"; sourceTree = "<group>"; };
+		665AA664A37FFC58B5C20372D2726C75 /* videodev_imp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videodev_imp.h; path = "build/pjproject/src/pjmedia/include/pjmedia-videodev/videodev_imp.h"; sourceTree = "<group>"; };
+		67005C84F8BA10D8AB881FFB2B4A8BBA /* sip_regc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_regc.h; path = "build/pjproject/src/pjsip/include/pjsip-ua/sip_regc.h"; sourceTree = "<group>"; };
+		6719DA25CB98147A3A73F839624B931C /* libpjmedia-videodev-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjmedia-videodev-apple-darwin_ios.a"; path = "build/pjproject/src/pjmedia/lib/libpjmedia-videodev-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		6839E8F7FFBEC53E5F285D396E3AABFE /* libpjlib-util-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjlib-util-apple-darwin_ios.a"; path = "build/pjproject/src/pjlib-util/lib/libpjlib-util-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		6875CCBD36F2192FCA6FFC848AC9FE46 /* call.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = call.hpp; path = build/pjproject/src/pjsip/include/pjsua2/call.hpp; sourceTree = "<group>"; };
+		68F7F2D8E66B6B45968BBEDED3B34BC1 /* wav_playlist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wav_playlist.h; path = build/pjproject/src/pjmedia/include/pjmedia/wav_playlist.h; sourceTree = "<group>"; };
+		695AD0A371370C8A68BACF5F610C5869 /* limits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = limits.h; path = build/pjproject/src/pjlib/include/pj/compat/limits.h; sourceTree = "<group>"; };
+		69C4144DF0F94DE14529E7DB6A48CEF2 /* audiotest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audiotest.h; path = "build/pjproject/src/pjmedia/include/pjmedia-audiodev/audiotest.h"; sourceTree = "<group>"; };
+		69CB9FC66AF0CC0B5A290442C00A84B5 /* ffmpeg_vid_codecs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffmpeg_vid_codecs.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/ffmpeg_vid_codecs.h"; sourceTree = "<group>"; };
+		6A33C30D8FF2B08AFF2A11A4A984D6E2 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		6BF322AC400C1E216BCE80EE63893505 /* assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = assert.h; path = build/pjproject/src/pjlib/include/pj/compat/assert.h; sourceTree = "<group>"; };
+		6BFA16CA501F9C90C796FFF2C085A2A1 /* m_armv4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_armv4.h; path = build/pjproject/src/pjlib/include/pj/compat/m_armv4.h; sourceTree = "<group>"; };
+		6D1FFFECBC3584E503F70E3CD7E9F4DC /* ilbc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ilbc.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/ilbc.h"; sourceTree = "<group>"; };
+		6D9CE9003E20396A12F8172F08CCBCF9 /* sip_xfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_xfer.h; path = "build/pjproject/src/pjsip/include/pjsip-ua/sip_xfer.h"; sourceTree = "<group>"; };
+		6F3A09D1CD527DE2A3510EA89F23AAF6 /* xpidf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xpidf.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/xpidf.h"; sourceTree = "<group>"; };
+		720307EDC7CB9D5B95CC6DDE0302D9FB /* Pods-Cheryz-CheryzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cheryz-CheryzTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72D9A09BB422C07E0DFA0A9CB264B467 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = build/openssl/lib/ios/libcrypto.a; sourceTree = "<group>"; };
+		72ED339FE401D885E74399EE11EE00E3 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		73B7D49302439062E7AD0582FCDC5C71 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/config.h"; sourceTree = "<group>"; };
+		747BC20A68B52A71CAF367C7352A7190 /* media.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = media.hpp; path = build/pjproject/src/pjsip/include/pjsua2/media.hpp; sourceTree = "<group>"; };
+		747F93A49EE3A93269D769EE1F77056A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7483BBA4053946F6BDC0A2D245B168B0 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		75599E7E166B58317EDF5298CDA861CA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		75D681FAE7100C0B9D0C33AECB92FE1D /* m_m68k.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_m68k.h; path = build/pjproject/src/pjlib/include/pj/compat/m_m68k.h; sourceTree = "<group>"; };
+		77AA4F9BE14018C61931A6DDF2EB7600 /* os_win32_wince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_win32_wince.h; path = build/pjproject/src/pjlib/include/pj/compat/os_win32_wince.h; sourceTree = "<group>"; };
+		7919A04D25E59A87219AB8156D857C80 /* Pods-Cheryz-CheryzTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cheryz-CheryzTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AB266C71212745661C40925BD313EF3 /* turn_session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = turn_session.h; path = build/pjproject/src/pjnath/include/pjnath/turn_session.h; sourceTree = "<group>"; };
+		7B05F10C10B3379FDFA7ACDC81315CCF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7C1565FBA8434A93C5C008D9F357FDB9 /* pjsip_auth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsip_auth.h; path = build/pjproject/src/pjsip/include/pjsip_auth.h; sourceTree = "<group>"; };
+		7D013FB2B3E59FE07597DD2C11B68620 /* stun_simple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_simple.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/stun_simple.h"; sourceTree = "<group>"; };
+		7DD1C2E0F819A010702F1C4F174D4CF3 /* assert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = assert.h; path = build/pjproject/src/pjlib/include/pj/assert.h; sourceTree = "<group>"; };
+		7DD805450DB870734AE924FC27899C20 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		7EC2CD9E46F54E273016353282D04124 /* dns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dns.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/dns.h"; sourceTree = "<group>"; };
+		815E3AE54B69C209DB89740C9E8D96CA /* sip_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_util.h; path = build/pjproject/src/pjsip/include/pjsip/sip_util.h; sourceTree = "<group>"; };
+		825832E2406F0DD2A75B3D286A0C63E4 /* signatures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = signatures.h; path = build/pjproject/src/pjmedia/include/pjmedia/signatures.h; sourceTree = "<group>"; };
+		83894021513EEA8F68917CAEA7A0544E /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/types.h"; sourceTree = "<group>"; };
+		84E2BF6F7618903ABD4168B0D9E8D33B /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874EF01645098B9DFF4CE475507C0328 /* os_linux.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_linux.h; path = build/pjproject/src/pjlib/include/pj/compat/os_linux.h; sourceTree = "<group>"; };
+		878D9FB865EC0D9369631C7E907BBA5F /* ice_session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ice_session.h; path = build/pjproject/src/pjnath/include/pjnath/ice_session.h; sourceTree = "<group>"; };
+		879CA05A82E976FC294431CAEC09BF0C /* transport_udp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport_udp.h; path = build/pjproject/src/pjmedia/include/pjmedia/transport_udp.h; sourceTree = "<group>"; };
+		889E4FE77E705B5D235F3CCC6CF62FFF /* rtcp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtcp.h; path = build/pjproject/src/pjmedia/include/pjmedia/rtcp.h; sourceTree = "<group>"; };
+		89790969921978D632ECC2802BBC715E /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		89B8BE789902F681BB04A25697E3D722 /* cli_telnet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cli_telnet.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/cli_telnet.h"; sourceTree = "<group>"; };
+		8A0A69069CB5207B9725B7468462F06F /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/types.h"; sourceTree = "<group>"; };
+		8A6EEA537F52838E7CC25D2CADB8B93B /* g722.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = g722.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/g722.h"; sourceTree = "<group>"; };
+		8AF1F5FA41EC361FD8D947D580D73AE8 /* cc_codew.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_codew.h; path = build/pjproject/src/pjlib/include/pj/compat/cc_codew.h; sourceTree = "<group>"; };
+		8AFB7998C3BF3B0789F1B4075D28BDC9 /* videodev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videodev.h; path = build/pjproject/src/pjmedia/include/pjmedia/videodev.h; sourceTree = "<group>"; };
+		8BC2C7A6E07C3BCF62C4533915FFAAC5 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = build/pjproject/src/pjlib/include/pj/compat/errno.h; sourceTree = "<group>"; };
+		8BC61D74093C657E0092F32BB1D4E0F7 /* Pods-Cheryz-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cheryz-dummy.m"; sourceTree = "<group>"; };
+		8C0936866FC49E0110EB5EA63A2D064C /* math.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = math.h; path = build/pjproject/src/pjlib/include/pj/math.h; sourceTree = "<group>"; };
+		8C163A59622E2FAC87E4CACCC0C4118F /* audiodev_imp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audiodev_imp.h; path = "build/pjproject/src/pjmedia/include/pjmedia-audiodev/audiodev_imp.h"; sourceTree = "<group>"; };
+		8CF064D74B4D5D49691AA799215DB21E /* stun_session.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_session.h; path = build/pjproject/src/pjnath/include/pjnath/stun_session.h; sourceTree = "<group>"; };
+		8D95B33A748EB65D28EAA83D2692B266 /* Pods-Cheryz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cheryz.release.xcconfig"; sourceTree = "<group>"; };
+		8D9F304E5511FA2C478DC48CF44A6E07 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		8E16BF1D89ACF7D8E66485EE8A3C18F2 /* sip_transport_tcp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transport_tcp.h; path = build/pjproject/src/pjsip/include/pjsip/sip_transport_tcp.h; sourceTree = "<group>"; };
+		8F1194566159AEB702607AB8478E42B3 /* string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string.h; path = build/pjproject/src/pjlib/include/pj/compat/string.h; sourceTree = "<group>"; };
+		8F7960B032914A6311343AEB341F32C0 /* lock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lock.h; path = build/pjproject/src/pjlib/include/pj/lock.h; sourceTree = "<group>"; };
+		901CB87886632CFB2198A5AF64A3E27A /* string_i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string_i.h; path = build/pjproject/src/pjlib/include/pj/string_i.h; sourceTree = "<group>"; };
+		908265C9CB85529102552D577C6323CF /* m_sparc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_sparc.h; path = build/pjproject/src/pjlib/include/pj/compat/m_sparc.h; sourceTree = "<group>"; };
+		926D01268EAB51CAA3E43826751231D9 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		92C4EDBC5FEB34DC8D0631BA8356C279 /* Pods-Cheryz-CheryzTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cheryz-CheryzTests-umbrella.h"; sourceTree = "<group>"; };
+		930AF70A2536141CFC54354375710C08 /* ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ctype.h; path = build/pjproject/src/pjlib/include/pj/compat/ctype.h; sourceTree = "<group>"; };
+		93FFCADC859EDA895C8B9D030D7A155A /* xml.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = xml.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/xml.h"; sourceTree = "<group>"; };
+		9411F003D20B8C0231180315DA3E2F33 /* vid_conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_conf.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_conf.h; sourceTree = "<group>"; };
+		950385F6A9D7AFFF0461425239DB7098 /* os_symbian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_symbian.h; path = build/pjproject/src/pjlib/include/pj/compat/os_symbian.h; sourceTree = "<group>"; };
+		9642E86633431B23269D7D4702571ACD /* libspeex-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libspeex-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libspeex-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		96F31E79CCAB44E04B4E952CA933B0C5 /* tonegen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tonegen.h; path = build/pjproject/src/pjmedia/include/pjmedia/tonegen.h; sourceTree = "<group>"; };
+		97B9D3A9C11A85BAFE0D8573267A80D1 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = build/pjproject/src/pjnath/include/pjnath/errno.h; sourceTree = "<group>"; };
+		97C6A099E04BA45BCDDCBBBC0FD23FB1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		985FA3DD7B00643AAF055BC275B42590 /* sip_timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_timer.h; path = "build/pjproject/src/pjsip/include/pjsip-ua/sip_timer.h"; sourceTree = "<group>"; };
+		986364AFBFA89F97EFB07771740E6FED /* string.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = string.h; path = build/pjproject/src/pjlib/include/pj/string.h; sourceTree = "<group>"; };
+		98D121041E874B806C7870479531C508 /* scanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanner.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/scanner.h"; sourceTree = "<group>"; };
+		99600A0F7D1254F3344B73FC658C07C0 /* except.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = except.h; path = build/pjproject/src/pjlib/include/pj/except.h; sourceTree = "<group>"; };
+		996A2B23AE73B869FC42DEF143694133 /* pjsip_ua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsip_ua.h; path = build/pjproject/src/pjsip/include/pjsip_ua.h; sourceTree = "<group>"; };
+		9A1A0F69164DB8A88B49F58364F2C992 /* stun_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_config.h; path = build/pjproject/src/pjnath/include/pjnath/stun_config.h; sourceTree = "<group>"; };
+		9B5851915C36C9B6D36D6206A165BAC6 /* codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = codec.h; path = build/pjproject/src/pjmedia/include/pjmedia/codec.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F7916046CD4A8BA8A69B92302A5D2C9 /* wave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wave.h; path = build/pjproject/src/pjmedia/include/pjmedia/wave.h; sourceTree = "<group>"; };
+		9FC283ABD0AB488EB2114DAB416650A5 /* Pods-Cheryz-CheryzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cheryz-CheryzTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FC56E9261F4E45E52DDE3432C57FEB6 /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = endpoint.hpp; path = build/pjproject/src/pjsip/include/pjsua2/endpoint.hpp; sourceTree = "<group>"; };
+		9FE9E5B006522763F196DF0993D886BE /* pcap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pcap.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/pcap.h"; sourceTree = "<group>"; };
+		A0F4271BE9C94F1BF925EF217E9CB79E /* ssl_sock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl_sock.h; path = build/pjproject/src/pjlib/include/pj/ssl_sock.h; sourceTree = "<group>"; };
+		A110F407B0948D3CFE9915C28EF2A372 /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = build/pjproject/src/pjmedia/include/pjmedia/frame.h; sourceTree = "<group>"; };
+		A32B9396678059078132768AFB24DD61 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A503035C064931C4B5261C4FC5EB8949 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		A522A897BE1FF6BF7603C84D071BD6B4 /* speex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = speex.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/speex.h"; sourceTree = "<group>"; };
+		A6A4F7022F0A72F80C549F60C683FEE5 /* vid_tee.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_tee.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_tee.h; sourceTree = "<group>"; };
+		A6AE1CB3D409B8C98377A0CDC2267AC8 /* scanner_cis_uint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanner_cis_uint.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/scanner_cis_uint.h"; sourceTree = "<group>"; };
+		A859C560137611772924CAC9A5CB9A97 /* jbuf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jbuf.h; path = build/pjproject/src/pjmedia/include/pjmedia/jbuf.h; sourceTree = "<group>"; };
+		A9469AE9A8D94E4F961C7C497BD8BAA8 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = build/pjproject/src/pjlib/include/pj/errno.h; sourceTree = "<group>"; };
+		AC2C0FEC8E163976BF15D43DD34B5545 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		AC5AAC515320A9D79EF553437477277C /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		ACB73EFF33094E79E95E99F486493561 /* pjlib-util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pjlib-util.h"; path = "build/pjproject/src/pjlib-util/include/pjlib-util.h"; sourceTree = "<group>"; };
+		ADE7218643E1F8E8E450CED04480DDAB /* sip_100rel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_100rel.h; path = "build/pjproject/src/pjsip/include/pjsip-ua/sip_100rel.h"; sourceTree = "<group>"; };
+		AE5081A59A98485618C9B95F674B8B05 /* echo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = echo.h; path = build/pjproject/src/pjmedia/include/pjmedia/echo.h; sourceTree = "<group>"; };
+		AEDD5A4B215FA97349A09DBB4A5B63C7 /* list_i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = list_i.h; path = build/pjproject/src/pjlib/include/pj/list_i.h; sourceTree = "<group>"; };
+		AF02BEA04514CBE76FF1C16B92878C08 /* addr_resolv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = addr_resolv.h; path = build/pjproject/src/pjlib/include/pj/addr_resolv.h; sourceTree = "<group>"; };
+		AFD4E13BAB86443B216592918D17CF7F /* opus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opus.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/opus.h"; sourceTree = "<group>"; };
+		B0234774660AAE183576D7D123DFA3E5 /* stun_sock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_sock.h; path = build/pjproject/src/pjnath/include/pjnath/stun_sock.h; sourceTree = "<group>"; };
+		B0B6665C6CC98B9EE84D514D88B2B68B /* event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = event.h; path = build/pjproject/src/pjmedia/include/pjmedia/event.h; sourceTree = "<group>"; };
+		B0E8B3F31838856634CF8FC13F84B8D0 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		B10FE388799F2934CF9073931A4B34BD /* sound_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sound_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/sound_port.h; sourceTree = "<group>"; };
+		B11FBE1D2A762FB9FE6AFB5EADB120B0 /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = "build/pjproject/src/pjmedia/include/pjmedia-videodev/errno.h"; sourceTree = "<group>"; };
+		B129BB1F048F69EA0CE8772E88DB2C9A /* transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport.h; path = build/pjproject/src/pjmedia/include/pjmedia/transport.h; sourceTree = "<group>"; };
+		B1D70476C4FD98488EF9E637C16E2E12 /* Pods-Cheryz-CheryzTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Cheryz-CheryzTests-frameworks.sh"; sourceTree = "<group>"; };
+		B305D0644E6E21AC0B80008BF6C0E6F4 /* rtcp_xr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtcp_xr.h; path = build/pjproject/src/pjmedia/include/pjmedia/rtcp_xr.h; sourceTree = "<group>"; };
+		B3198B3A1281C69B660AEF6914143479 /* vid_codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_codec.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_codec.h; sourceTree = "<group>"; };
+		B47D0946110191D12E4FC36ED729A99A /* audiodev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audiodev.h; path = "build/pjproject/src/pjmedia/include/pjmedia-audiodev/audiodev.h"; sourceTree = "<group>"; };
+		B4A82F6C782F57C27C6F464F453D1303 /* amr_sdp_match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amr_sdp_match.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/amr_sdp_match.h"; sourceTree = "<group>"; };
+		B57305807B338C411F2ECD94899BCDF6 /* sip_dialog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_dialog.h; path = build/pjproject/src/pjsip/include/pjsip/sip_dialog.h; sourceTree = "<group>"; };
+		B654FF19E25FE87EDDB066A8D471398D /* pjsua_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsua_internal.h; path = "build/pjproject/src/pjsip/include/pjsua-lib/pjsua_internal.h"; sourceTree = "<group>"; };
+		B66B4E24BE5762CE23B71B0C23B417F0 /* sip_tel_uri.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_tel_uri.h; path = build/pjproject/src/pjsip/include/pjsip/sip_tel_uri.h; sourceTree = "<group>"; };
+		B6AE6614B8E27FF57CFAB88E80DFF381 /* sip_transport_tls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transport_tls.h; path = build/pjproject/src/pjsip/include/pjsip/sip_transport_tls.h; sourceTree = "<group>"; };
+		B7E89EC7075A2D5B54F3A80F68DEEE86 /* vid_codec_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_codec_util.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_codec_util.h; sourceTree = "<group>"; };
+		B84E959FE9F7DAA0522EBF0ACF115FFF /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = "build/pjproject/src/pjmedia/include/pjmedia-audiodev/errno.h"; sourceTree = "<group>"; };
+		B863FFAD819374CE69AAE844A7B13293 /* silk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = silk.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/silk.h"; sourceTree = "<group>"; };
+		B89A0B75C6F2C09D3EB1CDD1E3862F3D /* silencedet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = silencedet.h; path = build/pjproject/src/pjmedia/include/pjmedia/silencedet.h; sourceTree = "<group>"; };
+		B8CB9A77CC5DA49C54BEE0178F133C92 /* file_io.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = file_io.h; path = build/pjproject/src/pjlib/include/pj/file_io.h; sourceTree = "<group>"; };
+		B8DF4829B254A96093948F6198885CCF /* transport_loop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport_loop.h; path = build/pjproject/src/pjmedia/include/pjmedia/transport_loop.h; sourceTree = "<group>"; };
+		BA0F36A951EA842BF11ED209423AA747 /* sip_endpoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_endpoint.h; path = build/pjproject/src/pjsip/include/pjsip/sip_endpoint.h; sourceTree = "<group>"; };
+		BA66193FB8224A340159BBF5D09A1DC0 /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = build/pjproject/src/pjlib/include/pj/compat/rand.h; sourceTree = "<group>"; };
+		BA6A79F25D202BA8722016B91BE8365F /* pjsua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsua.h; path = build/pjproject/src/pjsip/include/pjsua.h; sourceTree = "<group>"; };
+		BB258233D06D13C2052B0A34C027BAFE /* crc32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crc32.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/crc32.h"; sourceTree = "<group>"; };
+		BD1573848C53473215469418F3166D04 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = build/pjproject/src/pjlib/include/pj/log.h; sourceTree = "<group>"; };
+		BD505B3E15D7567E24ACBCA4A831177D /* account.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = account.hpp; path = build/pjproject/src/pjsip/include/pjsua2/account.hpp; sourceTree = "<group>"; };
+		BDE0D518D5C5F64B731847FF862766E2 /* http_client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = http_client.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/http_client.h"; sourceTree = "<group>"; };
+		BE248F64D53523CD14CD0AB5A12AA735 /* converter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = converter.h; path = build/pjproject/src/pjmedia/include/pjmedia/converter.h; sourceTree = "<group>"; };
+		BEAD74CFD6ED4BAD0078E4E629B6A345 /* fifobuf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fifobuf.h; path = build/pjproject/src/pjlib/include/pj/fifobuf.h; sourceTree = "<group>"; };
+		BF5E25E7CB600259002D5F884C78D8E9 /* ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ctype.h; path = build/pjproject/src/pjlib/include/pj/ctype.h; sourceTree = "<group>"; };
+		C098FA2EEBC335AAC47A6840AEB16B6B /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = build/pjproject/src/pjmedia/include/pjmedia/types.h; sourceTree = "<group>"; };
+		C0F3541098D52053D75ECC1D6A6CA950 /* cc_gcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_gcc.h; path = build/pjproject/src/pjlib/include/pj/compat/cc_gcc.h; sourceTree = "<group>"; };
+		C15FA2857DE98B002F18719EBF1C4EFF /* pjmedia-codec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "pjmedia-codec.h"; path = "build/pjproject/src/pjmedia/include/pjmedia-codec.h"; sourceTree = "<group>"; };
+		C1CF0E0782B653C0AA40AA73B8733E29 /* nat_detect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = nat_detect.h; path = build/pjproject/src/pjnath/include/pjnath/nat_detect.h; sourceTree = "<group>"; };
+		C28B71D6D1FD1DA266C2EEDAC4090088 /* os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os.h; path = build/pjproject/src/pjlib/include/pj/os.h; sourceTree = "<group>"; };
+		C299C13EFACF6EC5AB979163C033D08A /* openh264.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openh264.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/openh264.h"; sourceTree = "<group>"; };
+		C31597BAC4B9A15010CACFA0972BF3DC /* pjsua.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsua.h; path = "build/pjproject/src/pjsip/include/pjsua-lib/pjsua.h"; sourceTree = "<group>"; };
+		C32D2DBA86263685E63AD550178FBEB3 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		C413628341E25312CD68C12B907E01F2 /* getopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = getopt.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/getopt.h"; sourceTree = "<group>"; };
+		C4B5A653B72002D21DE9DA107A07FA43 /* libpjsip-simple-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjsip-simple-apple-darwin_ios.a"; path = "build/pjproject/src/pjsip/lib/libpjsip-simple-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		C53E2D0F78855C9397FA39F227298303 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		C5E65B84ED7367966C6E8104E73222B2 /* Pods-Cheryz-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cheryz-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6928970B48FB014A87499ACC30CDBA6 /* cli_console.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cli_console.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/cli_console.h"; sourceTree = "<group>"; };
+		C7417B7DD6675E9B80EEA9F635B2FD8F /* splitcomb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = splitcomb.h; path = build/pjproject/src/pjmedia/include/pjmedia/splitcomb.h; sourceTree = "<group>"; };
+		C74FF7C446D0E4EAEBCCD46F84CE322A /* bcg729.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bcg729.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/bcg729.h"; sourceTree = "<group>"; };
+		C844AFFF501A32F93DEB2D92FA74B49C /* evsub_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evsub_msg.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/evsub_msg.h"; sourceTree = "<group>"; };
+		C8D4C70268ED9D93E84BB97A399CF9CC /* stun_msg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stun_msg.h; path = build/pjproject/src/pjnath/include/pjnath/stun_msg.h; sourceTree = "<group>"; };
+		C8F021FE1E89F4B7A71D4EC96C13AB49 /* sip_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_types.h; path = build/pjproject/src/pjsip/include/pjsip/sip_types.h; sourceTree = "<group>"; };
+		C95691EDED55020F9B0D8417DDF782A6 /* h263_packetizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = h263_packetizer.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/h263_packetizer.h"; sourceTree = "<group>"; };
+		C9F2E3190382DBF40D9FC6ED507483A0 /* print_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = print_util.h; path = build/pjproject/src/pjsip/include/pjsip/print_util.h; sourceTree = "<group>"; };
+		CA4EFAE89CB0993D5DA516AEA838B8F1 /* evsub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evsub.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/evsub.h"; sourceTree = "<group>"; };
+		CB115DED133376DED5C965C38B84F932 /* clock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = clock.h; path = build/pjproject/src/pjmedia/include/pjmedia/clock.h; sourceTree = "<group>"; };
+		CC8ACAE2D0FEEB5191408C3B715E3A54 /* gsm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gsm.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/gsm.h"; sourceTree = "<group>"; };
+		CD2394814673A9A3DB26272627F4FB39 /* avi_dev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avi_dev.h; path = "build/pjproject/src/pjmedia/include/pjmedia-videodev/avi_dev.h"; sourceTree = "<group>"; };
+		CD37DAD2AF6474EB6FF58378459E452A /* libresample-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libresample-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libresample-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		CDDB8EA504E2B74B743078144071C75B /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
+		CE3AFAE14848AF0B5C9723572A1C9452 /* libsrtp-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libsrtp-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libsrtp-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		D001E3D970CFA07C80EB2048435B7C47 /* base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = base64.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/base64.h"; sourceTree = "<group>"; };
+		D0AD957EAF2D49C76A3A7DB2794D8ECC /* port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = port.h; path = build/pjproject/src/pjmedia/include/pjmedia/port.h; sourceTree = "<group>"; };
+		D158BCF6BE96729DF57400DC2886743D /* pjmedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjmedia.h; path = build/pjproject/src/pjmedia/include/pjmedia.h; sourceTree = "<group>"; };
+		D1DC8F8048FC76E6421C6B16FCDB8BCC /* doxygen.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = doxygen.hpp; path = build/pjproject/src/pjsip/include/pjsua2/doxygen.hpp; sourceTree = "<group>"; };
+		D267E0BABE9000AED6378B0BDC72A531 /* sip_errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_errno.h; path = build/pjproject/src/pjsip/include/pjsip/sip_errno.h; sourceTree = "<group>"; };
+		D26A3BE719D078E240A520F2257E76E5 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		D3217BD91D77389E3044A97BC7759896 /* mwi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mwi.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/mwi.h"; sourceTree = "<group>"; };
+		D4D7011A82094DA093F05A5B399C16EF /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		D5173013E6CEFBFC12E72432FFDB70AB /* stdfileio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stdfileio.h; path = build/pjproject/src/pjlib/include/pj/compat/stdfileio.h; sourceTree = "<group>"; };
+		D5D86A495AD8CFF382AB9376E93A85CB /* sdp_neg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdp_neg.h; path = build/pjproject/src/pjmedia/include/pjmedia/sdp_neg.h; sourceTree = "<group>"; };
+		D67FE6DDD5EE7EE8A1EF67F51B4B6A13 /* stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stream.h; path = build/pjproject/src/pjmedia/include/pjmedia/stream.h; sourceTree = "<group>"; };
+		D77BF726187F1451DC2C7C6103DA65C1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		D79841391C8E1F6C56D81C2A6840D193 /* resolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resolver.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/resolver.h"; sourceTree = "<group>"; };
+		D81C293C0F891D63E0E6D1136E559F65 /* stereo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo.h; path = build/pjproject/src/pjmedia/include/pjmedia/stereo.h; sourceTree = "<group>"; };
+		D84C69E2B6D37F4C67626823DFA5C687 /* sip_transaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transaction.h; path = build/pjproject/src/pjsip/include/pjsip/sip_transaction.h; sourceTree = "<group>"; };
+		D86FD18A5C1DAD8F91712F723936284D /* Pods-Cheryz.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cheryz.modulemap"; sourceTree = "<group>"; };
+		D87D11F4BDADEA78F2CF090A122DF18F /* null_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = null_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/null_port.h; sourceTree = "<group>"; };
+		D885F4058D52738AE9A19BD31F92CBD9 /* activesock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = activesock.h; path = build/pjproject/src/pjlib/include/pj/activesock.h; sourceTree = "<group>"; };
+		DA04C3F5266113613E2A500E0EDD2BCA /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		DA10821566DDF5998047BF8BF349C35D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		DA17DF3431707077891ECE28006DDD61 /* opengl_dev.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opengl_dev.h; path = "build/pjproject/src/pjmedia/include/pjmedia-videodev/opengl_dev.h"; sourceTree = "<group>"; };
+		DAC789DC7BF6CA4F2D667E480D2D9C42 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		DAE0D6E01E7360D6E52AD6FA11259747 /* sound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sound.h; path = build/pjproject/src/pjmedia/include/pjmedia/sound.h; sourceTree = "<group>"; };
+		DAE10C171D682BA80F7E38BC3F2D4EF1 /* SocketRocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.debug.xcconfig; sourceTree = "<group>"; };
+		DB1A5708A5B3BF1C3B0DDE51D55A3411 /* array.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = array.h; path = build/pjproject/src/pjlib/include/pj/array.h; sourceTree = "<group>"; };
+		DB34DFB01272927CF63AD20CA04207DD /* siptypes.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = siptypes.hpp; path = build/pjproject/src/pjsip/include/pjsua2/siptypes.hpp; sourceTree = "<group>"; };
+		DC76012F300B697E73C82C41B80FEEE8 /* high_precision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = high_precision.h; path = build/pjproject/src/pjlib/include/pj/compat/high_precision.h; sourceTree = "<group>"; };
+		DDD9A35A06B633E22322D220470876A2 /* sip_uri.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_uri.h; path = build/pjproject/src/pjsip/include/pjsip/sip_uri.h; sourceTree = "<group>"; };
+		DE927C095921C55FF93BDA21A2D91EA3 /* cc_armcc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_armcc.h; path = build/pjproject/src/pjlib/include/pj/compat/cc_armcc.h; sourceTree = "<group>"; };
+		DF05544BB5C7E3F54708AEF2BD93868A /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		DF43B5B2C7F1E939EEEA9555EC798346 /* libpjmedia-audiodev-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjmedia-audiodev-apple-darwin_ios.a"; path = "build/pjproject/src/pjmedia/lib/libpjmedia-audiodev-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		DF9BA95A477DCAABAE22A811F5739AA9 /* pidf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pidf.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/pidf.h"; sourceTree = "<group>"; };
+		DFA27DB886F01176F4CBA3901DDB51B8 /* sip_resolve.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_resolve.h; path = build/pjproject/src/pjsip/include/pjsip/sip_resolve.h; sourceTree = "<group>"; };
+		E09BFCC4F2C0C183A3BEA9FB7414CEA9 /* os_winphone8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = os_winphone8.h; path = build/pjproject/src/pjlib/include/pj/compat/os_winphone8.h; sourceTree = "<group>"; };
+		E0F4B3EDA64AC5DEA5B969513A6B36B6 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = "build/pjproject/src/pjmedia/include/pjmedia-audiodev/config.h"; sourceTree = "<group>"; };
+		E2342CC31350FDE107AE77AB7602F85B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		E2BBB9773D6C0551684FFE50BC662A58 /* config_site_sample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config_site_sample.h; path = build/pjproject/src/pjlib/include/pj/config_site_sample.h; sourceTree = "<group>"; };
+		E3657B3B49712B291CC12FE0AF510A22 /* SocketRocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.release.xcconfig; sourceTree = "<group>"; };
+		E41CBB7728D444E9237E58A0959C8221 /* resample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = resample.h; path = build/pjproject/src/pjmedia/include/pjmedia/resample.h; sourceTree = "<group>"; };
+		E43954913FBDB21E4037C122D1B6361F /* hmac_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac_md5.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/hmac_md5.h"; sourceTree = "<group>"; };
+		E4D3A553C37389FBBA87594BAAEA6250 /* sdp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sdp.h; path = build/pjproject/src/pjmedia/include/pjmedia/sdp.h; sourceTree = "<group>"; };
+		E4FCC762EB6A273AFC99FD2E60BDA79F /* pool_i.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pool_i.h; path = build/pjproject/src/pjlib/include/pj/pool_i.h; sourceTree = "<group>"; };
+		E57B89DF71B3F11C9684F5835D6627FE /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = "build/pjproject/src/pjmedia/include/pjmedia-videodev/config.h"; sourceTree = "<group>"; };
+		E6309649C84C4CE39F814343A1D950B3 /* libpjsdp-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjsdp-apple-darwin_ios.a"; path = "build/pjproject/src/pjmedia/lib/libpjsdp-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		E6387982E5EAF3992F02253AB7111AB8 /* ip_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ip_helper.h; path = build/pjproject/src/pjlib/include/pj/ip_helper.h; sourceTree = "<group>"; };
+		E67F42B52115B2DA73278BE8E88FFA61 /* avi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avi.h; path = build/pjproject/src/pjmedia/include/pjmedia/avi.h; sourceTree = "<group>"; };
+		E722F5535CC7D441F7073E8A735F9DC5 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		E75E8C18E33FCFD54311791B91460CE5 /* circbuf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = circbuf.h; path = build/pjproject/src/pjmedia/include/pjmedia/circbuf.h; sourceTree = "<group>"; };
+		E7FC70D66988E36B42E07D7D1AFE3E2F /* m_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_i386.h; path = build/pjproject/src/pjlib/include/pj/compat/m_i386.h; sourceTree = "<group>"; };
+		E8C319C58622799E4961D1FD76A03AE3 /* transport_adapter_sample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = transport_adapter_sample.h; path = build/pjproject/src/pjmedia/include/pjmedia/transport_adapter_sample.h; sourceTree = "<group>"; };
+		E96CCF9E8A9BB89807D93E667CC78D3E /* sock_qos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sock_qos.h; path = build/pjproject/src/pjlib/include/pj/sock_qos.h; sourceTree = "<group>"; };
+		E9859BCC40BEF6930B8F1CB3970FE89C /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		EB27EFAAC6665590A3AA1A08B4A58DCB /* m_auto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = m_auto.h; path = build/pjproject/src/pjlib/include/pj/compat/m_auto.h; sourceTree = "<group>"; };
+		EC548B3883A451A4B5416AE9E00BFDEE /* sip_autoconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_autoconf.h; path = build/pjproject/src/pjsip/include/pjsip/sip_autoconf.h; sourceTree = "<group>"; };
+		EC71C57CEA0FAB74A0BE90A4AEA2CDF6 /* dns_server.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dns_server.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/dns_server.h"; sourceTree = "<group>"; };
+		ECC16A651351523B3FEC262B888C96B7 /* plc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plc.h; path = build/pjproject/src/pjmedia/include/pjmedia/plc.h; sourceTree = "<group>"; };
+		ED05E13743B2372EB41BCB7A11C278C1 /* sip_auth_parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_auth_parser.h; path = build/pjproject/src/pjsip/include/pjsip/sip_auth_parser.h; sourceTree = "<group>"; };
+		ED47C920063358B664CF7627A20E3909 /* sip_transport_udp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transport_udp.h; path = build/pjproject/src/pjsip/include/pjsip/sip_transport_udp.h; sourceTree = "<group>"; };
+		EE094DDB74BA9337B5B4E710A66B4A4F /* errno.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = errno.h; path = build/pjproject/src/pjmedia/include/pjmedia/errno.h; sourceTree = "<group>"; };
+		EE7BB4971795CAD4E3F569F8B79C6039 /* rtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtp.h; path = build/pjproject/src/pjmedia/include/pjmedia/rtp.h; sourceTree = "<group>"; };
+		F08D59FC60869D2EE98984DE255C0F57 /* guid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = guid.h; path = build/pjproject/src/pjlib/include/pj/guid.h; sourceTree = "<group>"; };
+		F095A130A31ADB8CE2EFBF5CB096AF88 /* rpid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rpid.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/rpid.h"; sourceTree = "<group>"; };
+		F0E2A7FC9F8DF39110C05D04BFFD6C0C /* libpjsip-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjsip-apple-darwin_ios.a"; path = "build/pjproject/src/pjsip/lib/libpjsip-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		F138E8FBDC568145D2383FF453817CAB /* pool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pool.h; path = build/pjproject/src/pjlib/include/pj/pool.h; sourceTree = "<group>"; };
+		F155ECE2EEE295043DA0FD4B9AA0C83A /* sip_multipart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_multipart.h; path = build/pjproject/src/pjsip/include/pjsip/sip_multipart.h; sourceTree = "<group>"; };
+		F1CDB0CF4CE0E0461A30398804FE7E08 /* vid_stream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vid_stream.h; path = build/pjproject/src/pjmedia/include/pjmedia/vid_stream.h; sourceTree = "<group>"; };
+		F1FEE8F839D8A7470A9B8914BFC1E673 /* libg7221codec-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libg7221codec-apple-darwin_ios.a"; path = "build/pjproject/src/third_party/lib/libg7221codec-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		F25C4EA11B66E88DF9DC185143719021 /* sock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sock.h; path = build/pjproject/src/pjlib/include/pj/sock.h; sourceTree = "<group>"; };
+		F28A994DCDB5104339CC9472E6764F0A /* cli_imp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cli_imp.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/cli_imp.h"; sourceTree = "<group>"; };
+		F2CF3847E7F4CFFE745C53CF87CF38C0 /* sip_ua_layer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_ua_layer.h; path = build/pjproject/src/pjsip/include/pjsip/sip_ua_layer.h; sourceTree = "<group>"; };
+		F2F2DF68893B8F941ED22610A2CA8270 /* pjsip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pjsip.h; path = build/pjproject/src/pjsip/include/pjsip.h; sourceTree = "<group>"; };
+		F3856B2B1F316F86C9143373AF5650D4 /* hmac_sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac_sha1.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/hmac_sha1.h"; sourceTree = "<group>"; };
+		F3BD0D396C8821425B00A2740A2CCFBB /* cli.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cli.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/cli.h"; sourceTree = "<group>"; };
+		F499C9F458B10CAAF842F4F36625B53E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F4A1318DC5CD3BD0CF0A53F337B6B390 /* types.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = types.hpp; path = build/pjproject/src/pjsip/include/pjsua2/types.hpp; sourceTree = "<group>"; };
+		F4ACC543722A0EF1B46AD0433F848EDB /* pjsip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pjsip.release.xcconfig; sourceTree = "<group>"; };
+		F4C4317A332891948C2DDBA9E83803BE /* symbian_sound_aps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symbian_sound_aps.h; path = build/pjproject/src/pjmedia/include/pjmedia/symbian_sound_aps.h; sourceTree = "<group>"; };
+		F4CFED77CCEC44AFEA49A9C5E1933F19 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = build/openssl/lib/ios/libssl.a; sourceTree = "<group>"; };
+		F5A80C85926E46C8B7B41F88ECBBDE21 /* scanner_cis_bitwise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanner_cis_bitwise.h; path = "build/pjproject/src/pjlib-util/include/pjlib-util/scanner_cis_bitwise.h"; sourceTree = "<group>"; };
+		F5FDC34D461106228D6DDE8452D229E6 /* libpjsip-ua-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjsip-ua-apple-darwin_ios.a"; path = "build/pjproject/src/pjsip/lib/libpjsip-ua-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		F64F3106B26CEC8DB70FCD51EFC90BF4 /* wav_port.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wav_port.h; path = build/pjproject/src/pjmedia/include/pjmedia/wav_port.h; sourceTree = "<group>"; };
+		F6C232D0D152768FC021EE6825389614 /* turn_sock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = turn_sock.h; path = build/pjproject/src/pjnath/include/pjnath/turn_sock.h; sourceTree = "<group>"; };
+		F6C49AE632095F9C6DA722A475C3B48D /* cc_gcce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cc_gcce.h; path = build/pjproject/src/pjlib/include/pj/compat/cc_gcce.h; sourceTree = "<group>"; };
+		F6F41400CC8555B3C32D0635E4A317A2 /* sip_auth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_auth.h; path = build/pjproject/src/pjsip/include/pjsip/sip_auth.h; sourceTree = "<group>"; };
+		F7D6CB3437AEB9737CC5298E406A20AC /* presence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = presence.h; path = "build/pjproject/src/pjsip/include/pjsip-simple/presence.h"; sourceTree = "<group>"; };
+		F7D886A7BC41D1C5EC186F2AD7EB0641 /* passthrough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = passthrough.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/passthrough.h"; sourceTree = "<group>"; };
+		F8F8CC37C50FF5732B0AC1E87A1C4920 /* sip_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_config.h; path = build/pjproject/src/pjsip/include/pjsip/sip_config.h; sourceTree = "<group>"; };
+		F9417151246E6B878D572A3353B80D53 /* libpjmedia-apple-darwin_ios.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libpjmedia-apple-darwin_ios.a"; path = "build/pjproject/src/pjmedia/lib/libpjmedia-apple-darwin_ios.a"; sourceTree = "<group>"; };
+		F95E37F38EBB35321C066D07A586F835 /* ice_strans.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ice_strans.h; path = build/pjproject/src/pjnath/include/pjnath/ice_strans.h; sourceTree = "<group>"; };
+		FA00F898BA69CFF6158A23243E29D296 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		FAE1ECE2B4D13A25F278E1D6A72EC69F /* types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = types.h; path = build/pjproject/src/pjnath/include/pjnath/types.h; sourceTree = "<group>"; };
+		FB964EB1916B74B863ECB0C65689C5E8 /* pool_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pool_buf.h; path = build/pjproject/src/pjlib/include/pj/pool_buf.h; sourceTree = "<group>"; };
+		FD17A7D0ECFAE1A5FB9D8AFA432DD9EB /* sip_transport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sip_transport.h; path = build/pjproject/src/pjsip/include/pjsip/sip_transport.h; sourceTree = "<group>"; };
+		FDB5CA513C45728A875A5D581005E526 /* Pods-Cheryz-CheryzTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cheryz-CheryzTests.modulemap"; sourceTree = "<group>"; };
+		FFA2A9DCDD27D915FE13D24FF2CF93FE /* socket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket.h; path = build/pjproject/src/pjlib/include/pj/compat/socket.h; sourceTree = "<group>"; };
+		FFA8A44587E84019F0E1F4650C4EB8C7 /* amr_helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = amr_helper.h; path = "build/pjproject/src/pjmedia/include/pjmedia-codec/amr_helper.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26DC0269782AC758AC72721BB5EE6920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464BE13CF441D1C49924A2095633E641 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AC35E789C811CE09501582CCA2174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */,
+				AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */,
+				A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99296CB2AAE82C49C9B4A74A8F4D8341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */,
+				0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */,
+				1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */,
+				A93BD560DD062BA5B515267570761CBE /* Security.framework in Frameworks */,
+				B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF0586F4DA3804329961526FBE98084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E6270A8DE1FF565FA4DFED89AA22C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6F9A85EC7C13B23AAA3D7EADAEE521 /* Pods-Cheryz */ = {
+			isa = PBXGroup;
+			children = (
+				D86FD18A5C1DAD8F91712F723936284D /* Pods-Cheryz.modulemap */,
+				C5E65B84ED7367966C6E8104E73222B2 /* Pods-Cheryz-acknowledgements.markdown */,
+				6649C679B6B5C9B895B3FB772974996A /* Pods-Cheryz-acknowledgements.plist */,
+				8BC61D74093C657E0092F32BB1D4E0F7 /* Pods-Cheryz-dummy.m */,
+				2F9641A1273F686DCB22B3543D63B6CF /* Pods-Cheryz-Info.plist */,
+				01AF1C1F0F4B638E0E082AE62AEAF565 /* Pods-Cheryz-umbrella.h */,
+				12D4A732E60989D4E97DD76540BEF45A /* Pods-Cheryz.debug.xcconfig */,
+				8D95B33A748EB65D28EAA83D2692B266 /* Pods-Cheryz.release.xcconfig */,
+			);
+			name = "Pods-Cheryz";
+			path = "Target Support Files/Pods-Cheryz";
+			sourceTree = "<group>";
+		};
+		1492941D982A8A5372D377CCA45DF507 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				D77BF726187F1451DC2C7C6103DA65C1 /* AFNetworkReachabilityManager.h */,
+				00EAA40511F289DF301D467F74B53F7A /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		24C28751571B009B087482217EC8AD7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				20C22D397AF067226DB86883B83ED055 /* Pods_Cheryz.framework */,
+				5001DB1468FD2A753C09763DFB48DBD6 /* Pods_Cheryz_CheryzTests.framework */,
+				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D3EE20A6AD925A644385F1F8C524556 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C6F9A85EC7C13B23AAA3D7EADAEE521 /* Pods-Cheryz */,
+				DBA278F04F655F8D4CACE2FB1038A8DC /* Pods-Cheryz-CheryzTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A1C4A333588229DEBBEEA886C8DC6A8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C53E2D0F78855C9397FA39F227298303 /* AFNetworking.h */,
+				BD15A26B62D32EE3C93F128525CECDF9 /* NSURLSession */,
+				1492941D982A8A5372D377CCA45DF507 /* Reachability */,
+				FB9F08B344FF7CDE2388781215E06FBD /* Security */,
+				7E56280C42F4E33581CF4506C8B49765 /* Serialization */,
+				ABC32E714F26441D6290A537511D2AA4 /* Support Files */,
+				F0188F27A696A9C14AE099934787ADF7 /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		41173B646466FEBB316F954841863EBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				603D88BA8FE262B12D5C19C0719E4F97 /* SocketRocket.modulemap */,
+				84E2BF6F7618903ABD4168B0D9E8D33B /* SocketRocket-dummy.m */,
+				CDDB8EA504E2B74B743078144071C75B /* SocketRocket-Info.plist */,
+				3572210E02CEB6B385D285E1A36EA278 /* SocketRocket-prefix.pch */,
+				A503035C064931C4B5261C4FC5EB8949 /* SocketRocket-umbrella.h */,
+				DAE10C171D682BA80F7E38BC3F2D4EF1 /* SocketRocket.debug.xcconfig */,
+				E3657B3B49712B291CC12FE0AF510A22 /* SocketRocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		75C73257A9F7BA23AF6103C46314E523 /* pjsip */ = {
+			isa = PBXGroup;
+			children = (
+				BD505B3E15D7567E24ACBCA4A831177D /* account.hpp */,
+				D885F4058D52738AE9A19BD31F92CBD9 /* activesock.h */,
+				AF02BEA04514CBE76FF1C16B92878C08 /* addr_resolv.h */,
+				4B0E825AB75AF6DFE5782A3638C55488 /* alaw_ulaw.h */,
+				FFA8A44587E84019F0E1F4650C4EB8C7 /* amr_helper.h */,
+				B4A82F6C782F57C27C6F464F453D1303 /* amr_sdp_match.h */,
+				DB1A5708A5B3BF1C3B0DDE51D55A3411 /* array.h */,
+				7DD1C2E0F819A010702F1C4F174D4CF3 /* assert.h */,
+				6BF322AC400C1E216BCE80EE63893505 /* assert.h */,
+				3ABCD9A06637DE4CB637D040C93F0A45 /* audio_codecs.h */,
+				B47D0946110191D12E4FC36ED729A99A /* audiodev.h */,
+				149A13A5FA4B1B85A58B117CA7F31A87 /* audiodev.h */,
+				8C163A59622E2FAC87E4CACCC0C4118F /* audiodev_imp.h */,
+				69C4144DF0F94DE14529E7DB6A48CEF2 /* audiotest.h */,
+				E67F42B52115B2DA73278BE8E88FFA61 /* avi.h */,
+				CD2394814673A9A3DB26272627F4FB39 /* avi_dev.h */,
+				0BAB89F735715AEC3265C2006718E205 /* avi_stream.h */,
+				D001E3D970CFA07C80EB2048435B7C47 /* base64.h */,
+				C74FF7C446D0E4EAEBCCD46F84CE322A /* bcg729.h */,
+				2934C3DB133A65818F2A109F84789E4D /* bidirectional.h */,
+				6875CCBD36F2192FCA6FFC848AC9FE46 /* call.hpp */,
+				DE927C095921C55FF93BDA21A2D91EA3 /* cc_armcc.h */,
+				8AF1F5FA41EC361FD8D947D580D73AE8 /* cc_codew.h */,
+				C0F3541098D52053D75ECC1D6A6CA950 /* cc_gcc.h */,
+				F6C49AE632095F9C6DA722A475C3B48D /* cc_gcce.h */,
+				1EE1F66C2660959403302057574660EF /* cc_msvc.h */,
+				57F7FD257BA3A08E1A4FD00C89A57C96 /* cc_mwcc.h */,
+				E75E8C18E33FCFD54311791B91460CE5 /* circbuf.h */,
+				F3BD0D396C8821425B00A2740A2CCFBB /* cli.h */,
+				C6928970B48FB014A87499ACC30CDBA6 /* cli_console.h */,
+				F28A994DCDB5104339CC9472E6764F0A /* cli_imp.h */,
+				89B8BE789902F681BB04A25697E3D722 /* cli_telnet.h */,
+				CB115DED133376DED5C965C38B84F932 /* clock.h */,
+				9B5851915C36C9B6D36D6206A165BAC6 /* codec.h */,
+				319C17B453D94F36F00E88DDF67ABA4B /* conference.h */,
+				470343B29BC845A98B2F2253DAF99256 /* config.h */,
+				E0F4B3EDA64AC5DEA5B969513A6B36B6 /* config.h */,
+				E57B89DF71B3F11C9684F5835D6627FE /* config.h */,
+				442427CB88ABEE47A0F9B3BAC35E04F8 /* config.h */,
+				51EFA01DB47252C7CD76A669EA0F3BC4 /* config.h */,
+				73B7D49302439062E7AD0582FCDC5C71 /* config.h */,
+				04F230A6147174B7C7A5082F41F9738C /* config.h */,
+				33DC4DF4F81DB702CEFF8867964CFA6F /* config.hpp */,
+				45B7D81CCFD3D416D6DE8BF6C9A990BB /* config_auto.h */,
+				2C96B6ECC3921A598E36C4B9F34C11BC /* config_auto.h */,
+				174AEEF6B725BCD4A03372D646914656 /* config_site.h */,
+				E2BBB9773D6C0551684FFE50BC662A58 /* config_site_sample.h */,
+				BE248F64D53523CD14CD0AB5A12AA735 /* converter.h */,
+				BB258233D06D13C2052B0A34C027BAFE /* crc32.h */,
+				BF5E25E7CB600259002D5F884C78D8E9 /* ctype.h */,
+				930AF70A2536141CFC54354375710C08 /* ctype.h */,
+				2C6EAB8AA36E74BC468F96BACFCB833A /* delaybuf.h */,
+				7EC2CD9E46F54E273016353282D04124 /* dns.h */,
+				EC71C57CEA0FAB74A0BE90A4AEA2CDF6 /* dns_server.h */,
+				2760D9FC9AA4C7E27E5C3BCC98FFFA57 /* doxygen.h */,
+				39927EDBDC83BD175921EE9F0B61FDDD /* doxygen.h */,
+				D1DC8F8048FC76E6421C6B16FCDB8BCC /* doxygen.hpp */,
+				AE5081A59A98485618C9B95F674B8B05 /* echo.h */,
+				3CFD3C62FE89F3852C249FD493FBADDB /* echo_port.h */,
+				2081EFC4B4FC59ECC522A7A06D5CDD2B /* endpoint.h */,
+				9FC56E9261F4E45E52DDE3432C57FEB6 /* endpoint.hpp */,
+				97B9D3A9C11A85BAFE0D8573267A80D1 /* errno.h */,
+				8BC2C7A6E07C3BCF62C4533915FFAAC5 /* errno.h */,
+				B84E959FE9F7DAA0522EBF0ACF115FFF /* errno.h */,
+				A9469AE9A8D94E4F961C7C497BD8BAA8 /* errno.h */,
+				2667B98B3608219491FE3B7ECD2366B2 /* errno.h */,
+				B11FBE1D2A762FB9FE6AFB5EADB120B0 /* errno.h */,
+				EE094DDB74BA9337B5B4E710A66B4A4F /* errno.h */,
+				5A726B92DB17BAFD43E1B8F9C43499E0 /* errno.h */,
+				B0B6665C6CC98B9EE84D514D88B2B68B /* event.h */,
+				CA4EFAE89CB0993D5DA516AEA838B8F1 /* evsub.h */,
+				C844AFFF501A32F93DEB2D92FA74B49C /* evsub_msg.h */,
+				99600A0F7D1254F3344B73FC658C07C0 /* except.h */,
+				69CB9FC66AF0CC0B5A290442C00A84B5 /* ffmpeg_vid_codecs.h */,
+				BEAD74CFD6ED4BAD0078E4E629B6A345 /* fifobuf.h */,
+				2659B550B019BCCA2506794CCFFB832C /* file_access.h */,
+				B8CB9A77CC5DA49C54BEE0178F133C92 /* file_io.h */,
+				4539750D3C01BD16AA55D7ECFB258FC3 /* format.h */,
+				A110F407B0948D3CFE9915C28EF2A372 /* frame.h */,
+				51812225F08A5BB35F609D42F1F86A89 /* g711.h */,
+				8A6EEA537F52838E7CC25D2CADB8B93B /* g722.h */,
+				4D43AA7C8485B3313D0D40CDEAC42F44 /* g7221.h */,
+				4D459A317A6FAB5E3A820F4CAD59B248 /* g7221_sdp_match.h */,
+				C413628341E25312CD68C12B907E01F2 /* getopt.h */,
+				CC8ACAE2D0FEEB5191408C3B715E3A54 /* gsm.h */,
+				F08D59FC60869D2EE98984DE255C0F57 /* guid.h */,
+				C95691EDED55020F9B0D8417DDF782A6 /* h263_packetizer.h */,
+				1DFEF0FFABD16AF9E0ACBC74ED889E0E /* h264_packetizer.h */,
+				576E3B2C1FB059455541F57A0573712B /* hash.h */,
+				DC76012F300B697E73C82C41B80FEEE8 /* high_precision.h */,
+				E43954913FBDB21E4037C122D1B6361F /* hmac_md5.h */,
+				F3856B2B1F316F86C9143373AF5650D4 /* hmac_sha1.h */,
+				BDE0D518D5C5F64B731847FF862766E2 /* http_client.h */,
+				878D9FB865EC0D9369631C7E907BBA5F /* ice_session.h */,
+				F95E37F38EBB35321C066D07A586F835 /* ice_strans.h */,
+				6D1FFFECBC3584E503F70E3CD7E9F4DC /* ilbc.h */,
+				3A7070BFA20F5EB513E85EFD43F9192E /* ioqueue.h */,
+				E6387982E5EAF3992F02253AB7111AB8 /* ip_helper.h */,
+				4D92C8CE5DD031AEB5104E3A0F467B49 /* ipp_codecs.h */,
+				506E6F939C2A14C374B3FCB7ACBA3433 /* iscomposing.h */,
+				A859C560137611772924CAC9A5CB9A97 /* jbuf.h */,
+				582A2338AB0F369A306B1F0CB2AD44D9 /* json.h */,
+				252D6F7597FF76AD59DEB15683BE7426 /* json.hpp */,
+				4C94CD4F6918C91CD90174AD155661ED /* l16.h */,
+				695AD0A371370C8A68BACF5F610C5869 /* limits.h */,
+				4499B5BB8918709D1131B63E9744F464 /* limits.h */,
+				186D0CECBE54F3E48754AEA4AF071974 /* list.h */,
+				AEDD5A4B215FA97349A09DBB4A5B63C7 /* list_i.h */,
+				8F7960B032914A6311343AEB341F32C0 /* lock.h */,
+				BD1573848C53473215469418F3166D04 /* log.h */,
+				20D710549703E966F691EC56E6E90B62 /* m_alpha.h */,
+				6BFA16CA501F9C90C796FFF2C085A2A1 /* m_armv4.h */,
+				EB27EFAAC6665590A3AA1A08B4A58DCB /* m_auto.h */,
+				E7FC70D66988E36B42E07D7D1AFE3E2F /* m_i386.h */,
+				75D681FAE7100C0B9D0C33AECB92FE1D /* m_m68k.h */,
+				5C26F81459DD74C567C0B286202EF80E /* m_powerpc.h */,
+				908265C9CB85529102552D577C6323CF /* m_sparc.h */,
+				28152BD4BEC7456AEAB7F1E7989420C3 /* m_x86_64.h */,
+				0A6FE40951E4FE18E6B8E606BBE3C3AA /* malloc.h */,
+				1B13F3CA56886C6F2672CD3A91849925 /* master_port.h */,
+				8C0936866FC49E0110EB5EA63A2D064C /* math.h */,
+				07D2028A20193AA0DB36F2941948CC71 /* md5.h */,
+				747BC20A68B52A71CAF367C7352A7190 /* media.hpp */,
+				5103E4E33B2F322E668CFA21FDF6773E /* mem_port.h */,
+				D3217BD91D77389E3044A97BC7759896 /* mwi.h */,
+				C1CF0E0782B653C0AA40AA73B8733E29 /* nat_detect.h */,
+				D87D11F4BDADEA78F2CF090A122DF18F /* null_port.h */,
+				179C5DDB3FE205F7861BDF3C84F11A24 /* opencore_amr.h */,
+				DA17DF3431707077891ECE28006DDD61 /* opengl_dev.h */,
+				C299C13EFACF6EC5AB979163C033D08A /* openh264.h */,
+				AFD4E13BAB86443B216592918D17CF7F /* opus.h */,
+				C28B71D6D1FD1DA266C2EEDAC4090088 /* os.h */,
+				38530CAC27D73A8EBF7DDFACD28A2703 /* os_auto.h */,
+				5F3C3A248504515900E6E45B1331B84B /* os_darwinos.h */,
+				874EF01645098B9DFF4CE475507C0328 /* os_linux.h */,
+				30D0B8AC91AE9E6F9FE83300DB2EC049 /* os_palmos.h */,
+				540FD1E4AF6898392AC998FCFB338B8F /* os_rtems.h */,
+				3424A04D5A187CBA2E29EA55DBFC24B2 /* os_sunos.h */,
+				950385F6A9D7AFFF0461425239DB7098 /* os_symbian.h */,
+				37E4F0410D2D4B4564E1FA43DDE085F6 /* os_win32.h */,
+				77AA4F9BE14018C61931A6DDF2EB7600 /* os_win32_wince.h */,
+				E09BFCC4F2C0C183A3BEA9FB7414CEA9 /* os_winphone8.h */,
+				5350F5FD4D805156F58D4E29DC40A198 /* os_winuwp.h */,
+				F7D886A7BC41D1C5EC186F2AD7EB0641 /* passthrough.h */,
+				9FE9E5B006522763F196DF0993D886BE /* pcap.h */,
+				1E058313FA3880431E9506DF780179C3 /* persistent.hpp */,
+				DF9BA95A477DCAABAE22A811F5739AA9 /* pidf.h */,
+				4FDE4DF6B5F4BCAC7B89BC3D1F4E4202 /* pjlib.h */,
+				ACB73EFF33094E79E95E99F486493561 /* pjlib-util.h */,
+				D158BCF6BE96729DF57400DC2886743D /* pjmedia.h */,
+				C15FA2857DE98B002F18719EBF1C4EFF /* pjmedia-codec.h */,
+				4CF23E27432004C9822EAE649A8652A3 /* pjmedia_audiodev.h */,
+				164F2EBE45C3069C03F856B70A9C1E0F /* pjmedia_videodev.h */,
+				27618ECD264D4E46F94928FD56C9CF56 /* pjnath.h */,
+				F2F2DF68893B8F941ED22610A2CA8270 /* pjsip.h */,
+				7C1565FBA8434A93C5C008D9F357FDB9 /* pjsip_auth.h */,
+				5609FB26AC7E5D9D708773C3A8DE1FC0 /* pjsip_simple.h */,
+				996A2B23AE73B869FC42DEF143694133 /* pjsip_ua.h */,
+				C31597BAC4B9A15010CACFA0972BF3DC /* pjsua.h */,
+				BA6A79F25D202BA8722016B91BE8365F /* pjsua.h */,
+				317B3CEB75B236C79C35C404B274FAA6 /* pjsua2.hpp */,
+				B654FF19E25FE87EDDB066A8D471398D /* pjsua_internal.h */,
+				ECC16A651351523B3FEC262B888C96B7 /* plc.h */,
+				F138E8FBDC568145D2383FF453817CAB /* pool.h */,
+				45AD607EAB8DEA2A19BB08F9AFA4B0BF /* pool_alt.h */,
+				FB964EB1916B74B863ECB0C65689C5E8 /* pool_buf.h */,
+				E4FCC762EB6A273AFC99FD2E60BDA79F /* pool_i.h */,
+				D0AD957EAF2D49C76A3A7DB2794D8ECC /* port.h */,
+				F7D6CB3437AEB9737CC5298E406A20AC /* presence.h */,
+				299ACC641963C9504F14E0DC186F2D80 /* presence.hpp */,
+				C9F2E3190382DBF40D9FC6ED507483A0 /* print_util.h */,
+				283D63629A700FF56A03D92DE98703D9 /* publish.h */,
+				BA66193FB8224A340159BBF5D09A1DC0 /* rand.h */,
+				3799A76226F1443396B5856D9319C20C /* rand.h */,
+				5E9B7464DC4FAF35D685BFDE7A1E4DC4 /* rbtree.h */,
+				E41CBB7728D444E9237E58A0959C8221 /* resample.h */,
+				D79841391C8E1F6C56D81C2A6840D193 /* resolver.h */,
+				F095A130A31ADB8CE2EFBF5CB096AF88 /* rpid.h */,
+				889E4FE77E705B5D235F3CCC6CF62FFF /* rtcp.h */,
+				1C33FFE9E375029C546B17B9C823F6AA /* rtcp_fb.h */,
+				B305D0644E6E21AC0B80008BF6C0E6F4 /* rtcp_xr.h */,
+				EE7BB4971795CAD4E3F569F8B79C6039 /* rtp.h */,
+				98D121041E874B806C7870479531C508 /* scanner.h */,
+				F5A80C85926E46C8B7B41F88ECBBDE21 /* scanner_cis_bitwise.h */,
+				A6AE1CB3D409B8C98377A0CDC2267AC8 /* scanner_cis_uint.h */,
+				E4D3A553C37389FBBA87594BAAEA6250 /* sdp.h */,
+				D5D86A495AD8CFF382AB9376E93A85CB /* sdp_neg.h */,
+				1C535380E5951A92D69806B016E8E955 /* session.h */,
+				131D70E19E692595D964D75CBDE69414 /* setjmp.h */,
+				14E69E317A0BF487F92A8E9E6C70FC65 /* sha1.h */,
+				825832E2406F0DD2A75B3D286A0C63E4 /* signatures.h */,
+				B89A0B75C6F2C09D3EB1CDD1E3862F3D /* silencedet.h */,
+				B863FFAD819374CE69AAE844A7B13293 /* silk.h */,
+				ADE7218643E1F8E8E450CED04480DDAB /* sip_100rel.h */,
+				F6F41400CC8555B3C32D0635E4A317A2 /* sip_auth.h */,
+				078C7A19FEBF395A1A6A59EED6D76CE8 /* sip_auth_aka.h */,
+				16959B7D35B113162E5DA294E91D3AF7 /* sip_auth_msg.h */,
+				ED05E13743B2372EB41BCB7A11C278C1 /* sip_auth_parser.h */,
+				EC548B3883A451A4B5416AE9E00BFDEE /* sip_autoconf.h */,
+				F8F8CC37C50FF5732B0AC1E87A1C4920 /* sip_config.h */,
+				B57305807B338C411F2ECD94899BCDF6 /* sip_dialog.h */,
+				BA0F36A951EA842BF11ED209423AA747 /* sip_endpoint.h */,
+				D267E0BABE9000AED6378B0BDC72A531 /* sip_errno.h */,
+				27FA5371C315DB11EE055D197BCD24DF /* sip_event.h */,
+				1AFD0F200BE628302BA826B4FB27EF55 /* sip_inv.h */,
+				025CD13AB5F7717C65B1C557A6224621 /* sip_module.h */,
+				3700F87C7886AFEACA473C0CDE4D65F8 /* sip_msg.h */,
+				F155ECE2EEE295043DA0FD4B9AA0C83A /* sip_multipart.h */,
+				22FD3181491E3B00E3BCC5711CAD5AC1 /* sip_parser.h */,
+				5D221655E2653F363C475A35141A89F9 /* sip_private.h */,
+				67005C84F8BA10D8AB881FFB2B4A8BBA /* sip_regc.h */,
+				261049FBF766205D4A669E868417AF3A /* sip_replaces.h */,
+				DFA27DB886F01176F4CBA3901DDB51B8 /* sip_resolve.h */,
+				B66B4E24BE5762CE23B71B0C23B417F0 /* sip_tel_uri.h */,
+				985FA3DD7B00643AAF055BC275B42590 /* sip_timer.h */,
+				D84C69E2B6D37F4C67626823DFA5C687 /* sip_transaction.h */,
+				FD17A7D0ECFAE1A5FB9D8AFA432DD9EB /* sip_transport.h */,
+				4910A536299931B42D45381DCA1C411D /* sip_transport_loop.h */,
+				8E16BF1D89ACF7D8E66485EE8A3C18F2 /* sip_transport_tcp.h */,
+				B6AE6614B8E27FF57CFAB88E80DFF381 /* sip_transport_tls.h */,
+				ED47C920063358B664CF7627A20E3909 /* sip_transport_udp.h */,
+				C8F021FE1E89F4B7A71D4EC96C13AB49 /* sip_types.h */,
+				F2CF3847E7F4CFFE745C53CF87CF38C0 /* sip_ua_layer.h */,
+				DDD9A35A06B633E22322D220470876A2 /* sip_uri.h */,
+				815E3AE54B69C209DB89740C9E8D96CA /* sip_util.h */,
+				6D9CE9003E20396A12F8172F08CCBCF9 /* sip_xfer.h */,
+				DB34DFB01272927CF63AD20CA04207DD /* siptypes.hpp */,
+				22A131A2ED5646CE83275D86B5D89E80 /* size_t.h */,
+				F25C4EA11B66E88DF9DC185143719021 /* sock.h */,
+				E96CCF9E8A9BB89807D93E667CC78D3E /* sock_qos.h */,
+				440FAB2B68532D10E334FFAFD33BDF99 /* sock_select.h */,
+				FFA2A9DCDD27D915FE13D24FF2CF93FE /* socket.h */,
+				DAE0D6E01E7360D6E52AD6FA11259747 /* sound.h */,
+				B10FE388799F2934CF9073931A4B34BD /* sound_port.h */,
+				A522A897BE1FF6BF7603C84D071BD6B4 /* speex.h */,
+				C7417B7DD6675E9B80EEA9F635B2FD8F /* splitcomb.h */,
+				5A9A16E7DF202AA26B5DD1CF9545297E /* srv_resolver.h */,
+				A0F4271BE9C94F1BF925EF217E9CB79E /* ssl_sock.h */,
+				4DD2C0C8AE34B4A28DAE260985A6ABC1 /* stdarg.h */,
+				D5173013E6CEFBFC12E72432FFDB70AB /* stdfileio.h */,
+				D81C293C0F891D63E0E6D1136E559F65 /* stereo.h */,
+				D67FE6DDD5EE7EE8A1EF67F51B4B6A13 /* stream.h */,
+				1D4D4D56F103878B856CE7FF564C8F50 /* stream_common.h */,
+				986364AFBFA89F97EFB07771740E6FED /* string.h */,
+				8F1194566159AEB702607AB8478E42B3 /* string.h */,
+				0E68087213B3D988DB548545A424AE63 /* string.h */,
+				901CB87886632CFB2198A5AF64A3E27A /* string_i.h */,
+				173686E6762CDA3AE7A99EFA69E04182 /* stun_auth.h */,
+				9A1A0F69164DB8A88B49F58364F2C992 /* stun_config.h */,
+				C8D4C70268ED9D93E84BB97A399CF9CC /* stun_msg.h */,
+				8CF064D74B4D5D49691AA799215DB21E /* stun_session.h */,
+				7D013FB2B3E59FE07597DD2C11B68620 /* stun_simple.h */,
+				B0234774660AAE183576D7D123DFA3E5 /* stun_sock.h */,
+				27DABFD99D123692FAC1609DB472308C /* stun_transaction.h */,
+				F4C4317A332891948C2DDBA9E83803BE /* symbian_sound_aps.h */,
+				04D08244F861B7C8A01FEA0064B8EEF2 /* time.h */,
+				1A15966566AC23835EB597029B1AD3BD /* timer.h */,
+				96F31E79CCAB44E04B4E952CA933B0C5 /* tonegen.h */,
+				B129BB1F048F69EA0CE8772E88DB2C9A /* transport.h */,
+				E8C319C58622799E4961D1FD76A03AE3 /* transport_adapter_sample.h */,
+				500E2CDDF45DD11A6F04835836E40D8E /* transport_ice.h */,
+				B8DF4829B254A96093948F6198885CCF /* transport_loop.h */,
+				1793FDC8B0DA0FC31ABAF95D5464E19B /* transport_srtp.h */,
+				879CA05A82E976FC294431CAEC09BF0C /* transport_udp.h */,
+				7AB266C71212745661C40925BD313EF3 /* turn_session.h */,
+				F6C232D0D152768FC021EE6825389614 /* turn_sock.h */,
+				8A0A69069CB5207B9725B7468462F06F /* types.h */,
+				C098FA2EEBC335AAC47A6840AEB16B6B /* types.h */,
+				14BEF294EA792316CA8255E16D34434F /* types.h */,
+				FAE1ECE2B4D13A25F278E1D6A72EC69F /* types.h */,
+				83894021513EEA8F68917CAEA7A0544E /* types.h */,
+				0826657C6E938BC3F31EEE376DB3D59E /* types.h */,
+				F4A1318DC5CD3BD0CF0A53F337B6B390 /* types.hpp */,
+				60DCDE53AA37E389E9993AF135A35E49 /* unicode.h */,
+				B3198B3A1281C69B660AEF6914143479 /* vid_codec.h */,
+				B7E89EC7075A2D5B54F3A80F68DEEE86 /* vid_codec_util.h */,
+				9411F003D20B8C0231180315DA3E2F33 /* vid_conf.h */,
+				0679359F1B8C430CAC917AB7BEE0A8D9 /* vid_port.h */,
+				F1CDB0CF4CE0E0461A30398804FE7E08 /* vid_stream.h */,
+				A6A4F7022F0A72F80C549F60C683FEE5 /* vid_tee.h */,
+				1285D9D5BF6A4C429A107715B696BA3A /* vid_toolbox.h */,
+				8AFB7998C3BF3B0789F1B4075D28BDC9 /* videodev.h */,
+				137AD0A35568B07035C9FFC05C926034 /* videodev.h */,
+				665AA664A37FFC58B5C20372D2726C75 /* videodev_imp.h */,
+				68F7F2D8E66B6B45968BBEDED3B34BC1 /* wav_playlist.h */,
+				F64F3106B26CEC8DB70FCD51EFC90BF4 /* wav_port.h */,
+				9F7916046CD4A8BA8A69B92302A5D2C9 /* wave.h */,
+				5616FB1F4CB28E7AEFBB10E5DD055065 /* wsola.h */,
+				93FFCADC859EDA895C8B9D030D7A155A /* xml.h */,
+				6F3A09D1CD527DE2A3510EA89F23AAF6 /* xpidf.h */,
+				B634051638C1EF6F769591C7D845089E /* Frameworks */,
+				AE5F117A6D8EA2A03263CB768731A254 /* Support Files */,
+			);
+			name = pjsip;
+			path = pjsip;
+			sourceTree = "<group>";
+		};
+		7E56280C42F4E33581CF4506C8B49765 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				5315DC6D096AE1F84D81BE4FE327E3F0 /* AFURLRequestSerialization.h */,
+				75599E7E166B58317EDF5298CDA861CA /* AFURLRequestSerialization.m */,
+				08B11F9B4536571F70BFF6B069CDFCFE /* AFURLResponseSerialization.h */,
+				41C047B2DFDF5EBD39C31BB64A1DC81E /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		96FC0AFD44F175BC68BBF8ED3A8E4D99 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				97C6A099E04BA45BCDDCBBBC0FD23FB1 /* CFNetwork.framework */,
+				165364F071D2646DE68130B223A5DE23 /* CoreGraphics.framework */,
+				104276929FED87019E1E369071528206 /* Foundation.framework */,
+				0CAC1D3E8517EF715BF7FD0505ED05B4 /* MobileCoreServices.framework */,
+				DAC789DC7BF6CA4F2D667E480D2D9C42 /* Security.framework */,
+				4D1FBA6A364781C1478F0FF12A803367 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABC32E714F26441D6290A537511D2AA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05ED187F4B7D4B8A8EA2EE183AEB30B0 /* AFNetworking.modulemap */,
+				1F93DD7A61D904AC5BCF9ADBAB20D384 /* AFNetworking-dummy.m */,
+				6158F6FE46BC13BE7D9CE7A0EDF5C8FA /* AFNetworking-Info.plist */,
+				4979AB7DDE668AA856D8CC13F0091B51 /* AFNetworking-prefix.pch */,
+				E9859BCC40BEF6930B8F1CB3970FE89C /* AFNetworking-umbrella.h */,
+				AC2C0FEC8E163976BF15D43DD34B5545 /* AFNetworking.debug.xcconfig */,
+				D4D7011A82094DA093F05A5B399C16EF /* AFNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		AE5F117A6D8EA2A03263CB768731A254 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2310D7F49E7FD2F0E7FD7FD5D632945B /* pjsip.debug.xcconfig */,
+				F4ACC543722A0EF1B46AD0433F848EDB /* pjsip.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pjsip";
+			sourceTree = "<group>";
+		};
+		B634051638C1EF6F769591C7D845089E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D9A09BB422C07E0DFA0A9CB264B467 /* libcrypto.a */,
+				F1FEE8F839D8A7470A9B8914BFC1E673 /* libg7221codec-apple-darwin_ios.a */,
+				442B7E3503ADC8E95CAE080743446690 /* libgsmcodec-apple-darwin_ios.a */,
+				40EA309351671D69CF9F99CD04A5CD92 /* libilbccodec-apple-darwin_ios.a */,
+				49901FC9B2FE3804D5D6FD9B84EF6569 /* libopus.a */,
+				103615BD6ABD5B34433F6079BB5CF3CF /* libpj-apple-darwin_ios.a */,
+				6839E8F7FFBEC53E5F285D396E3AABFE /* libpjlib-util-apple-darwin_ios.a */,
+				F9417151246E6B878D572A3353B80D53 /* libpjmedia-apple-darwin_ios.a */,
+				DF43B5B2C7F1E939EEEA9555EC798346 /* libpjmedia-audiodev-apple-darwin_ios.a */,
+				06F1FBB465E347301D6FB7418AAAB0F0 /* libpjmedia-codec-apple-darwin_ios.a */,
+				6719DA25CB98147A3A73F839624B931C /* libpjmedia-videodev-apple-darwin_ios.a */,
+				020024ED7A3E9BE63AC945EF9A311F41 /* libpjnath-apple-darwin_ios.a */,
+				E6309649C84C4CE39F814343A1D950B3 /* libpjsdp-apple-darwin_ios.a */,
+				F0E2A7FC9F8DF39110C05D04BFFD6C0C /* libpjsip-apple-darwin_ios.a */,
+				C4B5A653B72002D21DE9DA107A07FA43 /* libpjsip-simple-apple-darwin_ios.a */,
+				F5FDC34D461106228D6DDE8452D229E6 /* libpjsip-ua-apple-darwin_ios.a */,
+				4C62E88C35120BBF9DD9A31C18F0ABD0 /* libpjsua-apple-darwin_ios.a */,
+				4A7201A8B057EC854C72E0E98DA4150D /* libpjsua2-apple-darwin_ios.a */,
+				CD37DAD2AF6474EB6FF58378459E452A /* libresample-apple-darwin_ios.a */,
+				9642E86633431B23269D7D4702571ACD /* libspeex-apple-darwin_ios.a */,
+				CE3AFAE14848AF0B5C9723572A1C9452 /* libsrtp-apple-darwin_ios.a */,
+				F4CFED77CCEC44AFEA49A9C5E1933F19 /* libssl.a */,
+				16CF3742374B04FD97181EEB1884C409 /* libwebrtc-apple-darwin_ios.a */,
+				4072531EFC6990F2B5C02C56A622255D /* libyuv-apple-darwin_ios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD15A26B62D32EE3C93F128525CECDF9 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				AC5AAC515320A9D79EF553437477277C /* AFCompatibilityMacros.h */,
+				E2342CC31350FDE107AE77AB7602F85B /* AFHTTPSessionManager.h */,
+				747F93A49EE3A93269D769EE1F77056A /* AFHTTPSessionManager.m */,
+				22F350DABF2761AE44FF106D8CD0A92D /* AFURLSessionManager.h */,
+				FA00F898BA69CFF6158A23243E29D296 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		C3AFD457BA8D2D6EC12660E6EC05F145 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A1C4A333588229DEBBEEA886C8DC6A8 /* AFNetworking */,
+				75C73257A9F7BA23AF6103C46314E523 /* pjsip */,
+				C4DCF5B553B64AAAE0DEE72C2968F82B /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4DCF5B553B64AAAE0DEE72C2968F82B /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				505E3D35AD4D2F694758F545FD0E1178 /* SocketRocket.h */,
+				DF05544BB5C7E3F54708AEF2BD93868A /* SRWebSocket.h */,
+				E722F5535CC7D441F7073E8A735F9DC5 /* SRWebSocket.m */,
+				41173B646466FEBB316F954841863EBC /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */,
+				C3AFD457BA8D2D6EC12660E6EC05F145 /* Pods */,
+				24C28751571B009B087482217EC8AD7F /* Products */,
+				2D3EE20A6AD925A644385F1F8C524556 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96FC0AFD44F175BC68BBF8ED3A8E4D99 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBA278F04F655F8D4CACE2FB1038A8DC /* Pods-Cheryz-CheryzTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDB5CA513C45728A875A5D581005E526 /* Pods-Cheryz-CheryzTests.modulemap */,
+				10CF5278ED613701EEDF3968F0990C62 /* Pods-Cheryz-CheryzTests-acknowledgements.markdown */,
+				7919A04D25E59A87219AB8156D857C80 /* Pods-Cheryz-CheryzTests-acknowledgements.plist */,
+				15934830730C5391D2FE79E6FB4D4E03 /* Pods-Cheryz-CheryzTests-dummy.m */,
+				B1D70476C4FD98488EF9E637C16E2E12 /* Pods-Cheryz-CheryzTests-frameworks.sh */,
+				39B1E5872A2B87A20677BCC6D36E515D /* Pods-Cheryz-CheryzTests-Info.plist */,
+				92C4EDBC5FEB34DC8D0631BA8356C279 /* Pods-Cheryz-CheryzTests-umbrella.h */,
+				720307EDC7CB9D5B95CC6DDE0302D9FB /* Pods-Cheryz-CheryzTests.debug.xcconfig */,
+				9FC283ABD0AB488EB2114DAB416650A5 /* Pods-Cheryz-CheryzTests.release.xcconfig */,
+			);
+			name = "Pods-Cheryz-CheryzTests";
+			path = "Target Support Files/Pods-Cheryz-CheryzTests";
+			sourceTree = "<group>";
+		};
+		F0188F27A696A9C14AE099934787ADF7 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				926D01268EAB51CAA3E43826751231D9 /* AFAutoPurgingImageCache.h */,
+				B0E8B3F31838856634CF8FC13F84B8D0 /* AFAutoPurgingImageCache.m */,
+				7483BBA4053946F6BDC0A2D245B168B0 /* AFImageDownloader.h */,
+				DA04C3F5266113613E2A500E0EDD2BCA /* AFImageDownloader.m */,
+				8D9F304E5511FA2C478DC48CF44A6E07 /* AFNetworkActivityIndicatorManager.h */,
+				A32B9396678059078132768AFB24DD61 /* AFNetworkActivityIndicatorManager.m */,
+				603B77B0DDE8D5C179664E8C6A13CF93 /* UIActivityIndicatorView+AFNetworking.h */,
+				89790969921978D632ECC2802BBC715E /* UIActivityIndicatorView+AFNetworking.m */,
+				63F8D7A468D1F1EEF8B5621F1E39FB62 /* UIButton+AFNetworking.h */,
+				7DD805450DB870734AE924FC27899C20 /* UIButton+AFNetworking.m */,
+				C32D2DBA86263685E63AD550178FBEB3 /* UIImage+AFNetworking.h */,
+				F499C9F458B10CAAF842F4F36625B53E /* UIImageView+AFNetworking.h */,
+				D26A3BE719D078E240A520F2257E76E5 /* UIImageView+AFNetworking.m */,
+				5E894F7B1D3FF67094FFFE16FE6825E4 /* UIKit+AFNetworking.h */,
+				44D646208B056A1A5B5997860FCFACD0 /* UIProgressView+AFNetworking.h */,
+				6A33C30D8FF2B08AFF2A11A4A984D6E2 /* UIProgressView+AFNetworking.m */,
+				DA10821566DDF5998047BF8BF349C35D /* UIRefreshControl+AFNetworking.h */,
+				51454782B1AB0C6A53FA91908B683C4E /* UIRefreshControl+AFNetworking.m */,
+				63D7BA2776E3B600A4F087CDB37F6B1D /* UIWebView+AFNetworking.h */,
+				72ED339FE401D885E74399EE11EE00E3 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		FB9F08B344FF7CDE2388781215E06FBD /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				7B05F10C10B3379FDFA7ACDC81315CCF /* AFSecurityPolicy.h */,
+				1D3BE80FC29C6E8DC77DA6487A18138A /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17BA34119E6FD4CDB922FEF45E0884DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */,
+				778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */,
+				9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE310C7460B921BBFDA96A819B9B157A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB779A2A16FD3CE1324D856AE151DEAD /* Pods-Cheryz-CheryzTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F43E2F06487A0C81333D856D43164 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A457883515DB77B5BA7D1C08784A4A /* Pods-Cheryz-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F3954755BD8248E767F716DA24E14F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */,
+				F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */,
+				169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */,
+				E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */,
+				2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */,
+				7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */,
+				A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */,
+				3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */,
+				17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */,
+				47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */,
+				D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */,
+				B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */,
+				09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */,
+				6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */,
+				9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */,
+				3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */,
+				09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */,
+				F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00F2B1C7E00F6AD7D217DA92AA8F4F19 /* Pods-Cheryz-CheryzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE6FE1A9A4725A8BF8F5E589C0116AD /* Build configuration list for PBXNativeTarget "Pods-Cheryz-CheryzTests" */;
+			buildPhases = (
+				AE310C7460B921BBFDA96A819B9B157A /* Headers */,
+				BB4E683F446B6DE868C7C01428C2DC5A /* Sources */,
+				26DC0269782AC758AC72721BB5EE6920 /* Frameworks */,
+				774B88FB1509AD7FDFCCDEAC57B97BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B584DF6BCD54D4FC4A59103C9F88AC1 /* PBXTargetDependency */,
+				E62712E9A5ADA4034AFBE48D09E641A5 /* PBXTargetDependency */,
+				31CD9F376F146039F8048C54D308ECFA /* PBXTargetDependency */,
+			);
+			name = "Pods-Cheryz-CheryzTests";
+			productName = "Pods-Cheryz-CheryzTests";
+			productReference = 5001DB1468FD2A753C09763DFB48DBD6 /* Pods_Cheryz_CheryzTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
+			buildPhases = (
+				F5F3954755BD8248E767F716DA24E14F /* Headers */,
+				E16D45883ACDDBE532CC4EABBA7C6196 /* Sources */,
+				99296CB2AAE82C49C9B4A74A8F4D8341 /* Frameworks */,
+				51B338009A28492821105E82A3A3C869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				17BA34119E6FD4CDB922FEF45E0884DA /* Headers */,
+				DB50286F169C0450B2990CE14479F856 /* Sources */,
+				56AC35E789C811CE09501582CCA2174A /* Frameworks */,
+				A6620E44D4248429BD059BDB7FBF21F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E84155C7A904AFD7845FF7662761A0E /* Pods-Cheryz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3840C0D94BEEDBC993FC0296C997359F /* Build configuration list for PBXNativeTarget "Pods-Cheryz" */;
+			buildPhases = (
+				CC7F43E2F06487A0C81333D856D43164 /* Headers */,
+				AE8D03B934A8EFB8B83735B714A116F5 /* Sources */,
+				BFF0586F4DA3804329961526FBE98084 /* Frameworks */,
+				B6B6634E3F0E4FFE299D6BF94ACCEA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6519A6E734DEB3FE16386862941C6FFE /* PBXTargetDependency */,
+				9E17320A8660516578B13F40618FF1E3 /* PBXTargetDependency */,
+				3315BA4A4714B37AFBF464C1AFEEF203 /* PBXTargetDependency */,
+			);
+			name = "Pods-Cheryz";
+			productName = "Pods-Cheryz";
+			productReference = 20C22D397AF067226DB86883B83ED055 /* Pods_Cheryz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 24C28751571B009B087482217EC8AD7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				30379F2CBCE1D24ADA0B31BC3A1269EF /* pjsip */,
+				8E84155C7A904AFD7845FF7662761A0E /* Pods-Cheryz */,
+				00F2B1C7E00F6AD7D217DA92AA8F4F19 /* Pods-Cheryz-CheryzTests */,
+				1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51B338009A28492821105E82A3A3C869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		774B88FB1509AD7FDFCCDEAC57B97BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6620E44D4248429BD059BDB7FBF21F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B6634E3F0E4FFE299D6BF94ACCEA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE8D03B934A8EFB8B83735B714A116F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2B1740C3E45FBC0AE9537860FC361A8 /* Pods-Cheryz-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4E683F446B6DE868C7C01428C2DC5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E9B399C60B942E6D6C5E2BA556850B2 /* Pods-Cheryz-CheryzTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
+				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E16D45883ACDDBE532CC4EABBA7C6196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */,
+				77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */,
+				0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */,
+				6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */,
+				95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */,
+				769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */,
+				E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */,
+				A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */,
+				856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */,
+				8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */,
+				AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */,
+				98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */,
+				D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */,
+				DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B584DF6BCD54D4FC4A59103C9F88AC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = B1CF5E704F0A2F83A5A5DBAD309E810C /* PBXContainerItemProxy */;
+		};
+		31CD9F376F146039F8048C54D308ECFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pjsip;
+			target = 30379F2CBCE1D24ADA0B31BC3A1269EF /* pjsip */;
+			targetProxy = D9B6831D1E7FAED0CC02F46BD3A4759F /* PBXContainerItemProxy */;
+		};
+		3315BA4A4714B37AFBF464C1AFEEF203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pjsip;
+			target = 30379F2CBCE1D24ADA0B31BC3A1269EF /* pjsip */;
+			targetProxy = DFA93A260E46CC479707B7255A3C1C42 /* PBXContainerItemProxy */;
+		};
+		6519A6E734DEB3FE16386862941C6FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = CD347BA583FD636BCB8834E5435F818D /* PBXContainerItemProxy */;
+		};
+		9E17320A8660516578B13F40618FF1E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 48298E9D3762E281C067C3FCAA5A504E /* PBXContainerItemProxy */;
+		};
+		E62712E9A5ADA4034AFBE48D09E641A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = ED373175032CBB3655A9C4FB1756449B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08D3FE22D5C971B2F4859E7BC3D15236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4ACC543722A0EF1B46AD0433F848EDB /* pjsip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093BF7C62922298B0DEEA4DCD41A94BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2C0FEC8E163976BF15D43DD34B5545 /* AFNetworking.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57983FCA97AF8434499B1E311736AEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC283ABD0AB488EB2114DAB416650A5 /* Pods-Cheryz-CheryzTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65D402541B4042AB15B8D0C141BFE63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2310D7F49E7FD2F0E7FD7FD5D632945B /* pjsip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE608E2A6E80F5C86015C9DC600C7C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D95B33A748EB65D28EAA83D2692B266 /* Pods-Cheryz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cheryz/Pods-Cheryz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cheryz/Pods-Cheryz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		85BAE483FE23BFC1A3368309DE6A796B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3657B3B49712B291CC12FE0AF510A22 /* SocketRocket.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85D198F3429C5589DB9FED86AB1A6C46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE10C171D682BA80F7E38BC3F2D4EF1 /* SocketRocket.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA5BDFFEBD72A77EA0AE38E58A6E1229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D4A732E60989D4E97DD76540BEF45A /* Pods-Cheryz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cheryz/Pods-Cheryz-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cheryz/Pods-Cheryz.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D386235F8DE8E7DFA6CD77269A39C5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D7011A82094DA093F05A5B399C16EF /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D88C47A2025ED62DFC7B89D8697B28D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720307EDC7CB9D5B95CC6DDE0302D9FB /* Pods-Cheryz-CheryzTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3840C0D94BEEDBC993FC0296C997359F /* Build configuration list for PBXNativeTarget "Pods-Cheryz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5BDFFEBD72A77EA0AE38E58A6E1229 /* Debug */,
+				6BE608E2A6E80F5C86015C9DC600C7C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093BF7C62922298B0DEEA4DCD41A94BB /* Debug */,
+				D386235F8DE8E7DFA6CD77269A39C5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748EF21A9D53A1E9E390307FAF61BE80 /* Build configuration list for PBXAggregateTarget "pjsip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D402541B4042AB15B8D0C141BFE63B /* Debug */,
+				08D3FE22D5C971B2F4859E7BC3D15236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D198F3429C5589DB9FED86AB1A6C46 /* Debug */,
+				85BAE483FE23BFC1A3368309DE6A796B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE6FE1A9A4725A8BF8F5E589C0116AD /* Build configuration list for PBXNativeTarget "Pods-Cheryz-CheryzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88C47A2025ED62DFC7B89D8697B28D0 /* Debug */,
+				57983FCA97AF8434499B1E311736AEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

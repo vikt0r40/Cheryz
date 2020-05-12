@@ -1,0 +1,1291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133AEE33246A984600162016 /* Cheryz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 133AEE29246A984600162016 /* Cheryz.framework */; };
+		133AEE38246A984600162016 /* CheryzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE37246A984600162016 /* CheryzTests.m */; };
+		133AEE3A246A984600162016 /* Cheryz.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE2C246A984600162016 /* Cheryz.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		133AEE61246A99A300162016 /* CheryzSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE5F246A99A300162016 /* CheryzSDK.h */; };
+		133AEE62246A99A300162016 /* CheryzSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE60246A99A300162016 /* CheryzSDK.m */; };
+		133AEF11246A9A4C00162016 /* AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE64246A9A4B00162016 /* AlertView.h */; };
+		133AEF12246A9A4C00162016 /* TourPop.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE65246A9A4B00162016 /* TourPop.h */; };
+		133AEF13246A9A4C00162016 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE66246A9A4B00162016 /* Order.m */; };
+		133AEF14246A9A4C00162016 /* TypeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE67246A9A4B00162016 /* TypeButton.m */; };
+		133AEF15246A9A4C00162016 /* Device.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE68246A9A4B00162016 /* Device.h */; };
+		133AEF16246A9A4C00162016 /* Product.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE69246A9A4B00162016 /* Product.h */; };
+		133AEF17246A9A4C00162016 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE6A246A9A4B00162016 /* User.m */; };
+		133AEF18246A9A4C00162016 /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE6B246A9A4B00162016 /* Tour.m */; };
+		133AEF19246A9A4C00162016 /* Currency.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE6C246A9A4B00162016 /* Currency.h */; };
+		133AEF1A246A9A4C00162016 /* CHDuration.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE6D246A9A4B00162016 /* CHDuration.h */; };
+		133AEF1B246A9A4C00162016 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE6E246A9A4B00162016 /* Location.m */; };
+		133AEF1C246A9A4C00162016 /* TypeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE6F246A9A4B00162016 /* TypeView.h */; };
+		133AEF1D246A9A4C00162016 /* Price.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE70246A9A4B00162016 /* Price.h */; };
+		133AEF1E246A9A4C00162016 /* Message.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE71246A9A4B00162016 /* Message.h */; };
+		133AEF1F246A9A4C00162016 /* Bid.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE72246A9A4B00162016 /* Bid.m */; };
+		133AEF20246A9A4C00162016 /* TimeTour.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE73246A9A4B00162016 /* TimeTour.m */; };
+		133AEF21246A9A4C00162016 /* NSDate+Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE74246A9A4B00162016 /* NSDate+Server.h */; };
+		133AEF22246A9A4C00162016 /* MessageParent.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE75246A9A4B00162016 /* MessageParent.h */; };
+		133AEF23246A9A4C00162016 /* Wishlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE76246A9A4B00162016 /* Wishlist.m */; };
+		133AEF24246A9A4C00162016 /* Order.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE77246A9A4B00162016 /* Order.h */; };
+		133AEF25246A9A4C00162016 /* TourPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE78246A9A4B00162016 /* TourPop.m */; };
+		133AEF26246A9A4C00162016 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE79246A9A4B00162016 /* AlertView.m */; };
+		133AEF27246A9A4C00162016 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE7A246A9A4B00162016 /* User.h */; };
+		133AEF28246A9A4C00162016 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE7B246A9A4B00162016 /* Product.m */; };
+		133AEF29246A9A4C00162016 /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE7C246A9A4B00162016 /* Device.m */; };
+		133AEF2A246A9A4C00162016 /* TypeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE7D246A9A4B00162016 /* TypeButton.h */; };
+		133AEF2B246A9A4C00162016 /* TypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE7E246A9A4B00162016 /* TypeView.m */; };
+		133AEF2C246A9A4C00162016 /* Location.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE7F246A9A4B00162016 /* Location.h */; };
+		133AEF2D246A9A4C00162016 /* CHDuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE80246A9A4B00162016 /* CHDuration.m */; };
+		133AEF2E246A9A4C00162016 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE81246A9A4B00162016 /* Currency.m */; };
+		133AEF2F246A9A4C00162016 /* Tour.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE82246A9A4B00162016 /* Tour.h */; };
+		133AEF30246A9A4C00162016 /* Wishlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE83246A9A4B00162016 /* Wishlist.h */; };
+		133AEF31246A9A4C00162016 /* MessageParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE84246A9A4B00162016 /* MessageParent.m */; };
+		133AEF32246A9A4C00162016 /* NSDate+Server.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE85246A9A4B00162016 /* NSDate+Server.m */; };
+		133AEF33246A9A4C00162016 /* TimeTour.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE86246A9A4B00162016 /* TimeTour.h */; };
+		133AEF34246A9A4C00162016 /* Bid.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE87246A9A4B00162016 /* Bid.h */; };
+		133AEF35246A9A4C00162016 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE88246A9A4B00162016 /* Message.m */; };
+		133AEF36246A9A4C00162016 /* Price.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE89246A9A4B00162016 /* Price.m */; };
+		133AEF37246A9A4C00162016 /* CHAPILiveRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE8B246A9A4B00162016 /* CHAPILiveRequest.h */; };
+		133AEF38246A9A4C00162016 /* GetTourByIDAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE8C246A9A4B00162016 /* GetTourByIDAPIClient.m */; };
+		133AEF39246A9A4C00162016 /* InfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE8D246A9A4B00162016 /* InfoRequest.m */; };
+		133AEF3A246A9A4C00162016 /* LiveCommandClient+TourCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE8E246A9A4B00162016 /* LiveCommandClient+TourCommands.h */; };
+		133AEF3B246A9A4C00162016 /* NALU.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE8F246A9A4B00162016 /* NALU.m */; };
+		133AEF3C246A9A4C00162016 /* WebSocketVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE90246A9A4B00162016 /* WebSocketVideoPlayer.h */; };
+		133AEF3D246A9A4C00162016 /* RealtimeManagerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE91246A9A4B00162016 /* RealtimeManagerHelper.h */; };
+		133AEF3E246A9A4C00162016 /* LiveCommandClient+BuyerBroadcasting.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE92246A9A4B00162016 /* LiveCommandClient+BuyerBroadcasting.h */; };
+		133AEF3F246A9A4C00162016 /* CHAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE93246A9A4B00162016 /* CHAPIResponse.m */; };
+		133AEF40246A9A4C00162016 /* TourCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE94246A9A4B00162016 /* TourCoordinator.m */; };
+		133AEF41246A9A4C00162016 /* LiveCommandClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE95246A9A4B00162016 /* LiveCommandClient.h */; };
+		133AEF42246A9A4C00162016 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE96246A9A4B00162016 /* Router.m */; };
+		133AEF43246A9A4C00162016 /* BuyRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE97246A9A4B00162016 /* BuyRequest.h */; };
+		133AEF44246A9A4C00162016 /* UIColor+Cheryz.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE98246A9A4B00162016 /* UIColor+Cheryz.h */; };
+		133AEF45246A9A4C00162016 /* LiveCommandClient+ShopperBroadcasting.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE99246A9A4B00162016 /* LiveCommandClient+ShopperBroadcasting.h */; };
+		133AEF46246A9A4C00162016 /* SessionSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE9A246A9A4B00162016 /* SessionSettings.m */; };
+		133AEF47246A9A4C00162016 /* CHUserToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE9B246A9A4B00162016 /* CHUserToken.m */; };
+		133AEF48246A9A4C00162016 /* WSVPBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE9C246A9A4B00162016 /* WSVPBuffer.h */; };
+		133AEF49246A9A4C00162016 /* UIButton+MiddleAligning.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE9D246A9A4B00162016 /* UIButton+MiddleAligning.m */; };
+		133AEF4A246A9A4C00162016 /* CHAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEE9E246A9A4B00162016 /* CHAPIRequest.m */; };
+		133AEF4B246A9A4C00162016 /* TourTabViewControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEE9F246A9A4B00162016 /* TourTabViewControllerProtocol.h */; };
+		133AEF4C246A9A4C00162016 /* GetTourByIDAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEA0246A9A4B00162016 /* GetTourByIDAPIClient.h */; };
+		133AEF4D246A9A4C00162016 /* CHAPILiveRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEA1246A9A4B00162016 /* CHAPILiveRequest.m */; };
+		133AEF4E246A9A4C00162016 /* CHAPIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEA2246A9A4B00162016 /* CHAPIResponse.h */; };
+		133AEF4F246A9A4C00162016 /* LiveCommandClient+BuyerBroadcasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEA3246A9A4B00162016 /* LiveCommandClient+BuyerBroadcasting.m */; };
+		133AEF50246A9A4C00162016 /* RealtimeManagerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEA4246A9A4B00162016 /* RealtimeManagerHelper.m */; };
+		133AEF51246A9A4C00162016 /* WebSocketVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEA5246A9A4B00162016 /* WebSocketVideoPlayer.m */; };
+		133AEF52246A9A4C00162016 /* NALU.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEA6246A9A4B00162016 /* NALU.h */; };
+		133AEF53246A9A4C00162016 /* CHAPISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEA7246A9A4B00162016 /* CHAPISettings.h */; };
+		133AEF54246A9A4C00162016 /* InfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEA8246A9A4B00162016 /* InfoRequest.h */; };
+		133AEF55246A9A4C00162016 /* LiveCommandClient+TourCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEA9246A9A4B00162016 /* LiveCommandClient+TourCommands.m */; };
+		133AEF56246A9A4C00162016 /* BuyRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEAA246A9A4B00162016 /* BuyRequest.m */; };
+		133AEF57246A9A4C00162016 /* Router.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEAB246A9A4B00162016 /* Router.h */; };
+		133AEF58246A9A4C00162016 /* LiveCommandClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEAC246A9A4B00162016 /* LiveCommandClient.m */; };
+		133AEF59246A9A4C00162016 /* TourCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEAD246A9A4B00162016 /* TourCoordinator.h */; };
+		133AEF5A246A9A4C00162016 /* CHAPIRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEAE246A9A4B00162016 /* CHAPIRequest.h */; };
+		133AEF5B246A9A4C00162016 /* UIButton+MiddleAligning.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEAF246A9A4B00162016 /* UIButton+MiddleAligning.h */; };
+		133AEF5C246A9A4C00162016 /* WSVPBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEB0246A9A4B00162016 /* WSVPBuffer.m */; };
+		133AEF5D246A9A4C00162016 /* SessionSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEB1246A9A4B00162016 /* SessionSettings.h */; };
+		133AEF5E246A9A4C00162016 /* CHUserToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEB2246A9A4B00162016 /* CHUserToken.h */; };
+		133AEF5F246A9A4C00162016 /* LiveCommandClient+ShopperBroadcasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEB3246A9A4B00162016 /* LiveCommandClient+ShopperBroadcasting.m */; };
+		133AEF60246A9A4C00162016 /* UIColor+Cheryz.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEB4246A9A4B00162016 /* UIColor+Cheryz.m */; };
+		133AEF61246A9A4C00162016 /* AuthorizationAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEB6246A9A4B00162016 /* AuthorizationAPI.h */; };
+		133AEF62246A9A4C00162016 /* ToursAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEB7246A9A4B00162016 /* ToursAPI.h */; };
+		133AEF63246A9A4C00162016 /* AuthorizationAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEB8246A9A4B00162016 /* AuthorizationAPI.m */; };
+		133AEF64246A9A4C00162016 /* ToursAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEB9246A9A4B00162016 /* ToursAPI.m */; };
+		133AEF65246A9A4C00162016 /* BuyerTourPopupsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEBB246A9A4B00162016 /* BuyerTourPopupsViewController.h */; };
+		133AEF66246A9A4C00162016 /* CHVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEBC246A9A4B00162016 /* CHVideoPlayer.h */; };
+		133AEF67246A9A4C00162016 /* BuyerAPILiveCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEBD246A9A4B00162016 /* BuyerAPILiveCommands.m */; };
+		133AEF68246A9A4C00162016 /* RequestPrivateTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEBE246A9A4B00162016 /* RequestPrivateTourViewController.m */; };
+		133AEF69246A9A4C00162016 /* PDPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEBF246A9A4B00162016 /* PDPViewController.m */; };
+		133AEF6A246A9A4C00162016 /* ItemsContentCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEC0246A9A4B00162016 /* ItemsContentCollectionViewController.h */; };
+		133AEF6B246A9A4C00162016 /* BuyerFinishedTourViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEC2246A9A4B00162016 /* BuyerFinishedTourViewController.h */; };
+		133AEF6C246A9A4C00162016 /* BuyerFinishedTourCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEC3246A9A4B00162016 /* BuyerFinishedTourCoordinator.h */; };
+		133AEF6D246A9A4C00162016 /* BuyerFinishedTourCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEC4246A9A4B00162016 /* BuyerFinishedTourCoordinator.m */; };
+		133AEF6E246A9A4C00162016 /* BuyerFinishedTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEC5246A9A4B00162016 /* BuyerFinishedTourViewController.m */; };
+		133AEF6F246A9A4C00162016 /* BuyersTourStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133AEEC6246A9A4B00162016 /* BuyersTourStoryboard.storyboard */; };
+		133AEF70246A9A4C00162016 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEC7246A9A4B00162016 /* VideoView.m */; };
+		133AEF71246A9A4C00162016 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEC8246A9A4B00162016 /* TourViewController.m */; };
+		133AEF72246A9A4C00162016 /* SendRequestCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEC9246A9A4B00162016 /* SendRequestCell.h */; };
+		133AEF73246A9A4C00162016 /* MessagesContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEECA246A9A4B00162016 /* MessagesContentTableViewController.m */; };
+		133AEF74246A9A4C00162016 /* AboutContentTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEECB246A9A4B00162016 /* AboutContentTableViewController.h */; };
+		133AEF75246A9A4C00162016 /* CHVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEECC246A9A4B00162016 /* CHVideoPlayer.m */; };
+		133AEF76246A9A4C00162016 /* BuyerTourPopupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEECD246A9A4B00162016 /* BuyerTourPopupsViewController.m */; };
+		133AEF77246A9A4C00162016 /* BuyerAPILiveCommands.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEECE246A9A4B00162016 /* BuyerAPILiveCommands.h */; };
+		133AEF78246A9A4C00162016 /* RequestPrivateTourViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEECF246A9A4B00162016 /* RequestPrivateTourViewController.h */; };
+		133AEF79246A9A4C00162016 /* SipSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEED1246A9A4B00162016 /* SipSettings.m */; };
+		133AEF7A246A9A4C00162016 /* BuyerTourViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEED2246A9A4B00162016 /* BuyerTourViewController.h */; };
+		133AEF7B246A9A4C00162016 /* SipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEED3246A9A4B00162016 /* SipManager.m */; };
+		133AEF7C246A9A4C00162016 /* BuyerTourCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEED4246A9A4B00162016 /* BuyerTourCoordinator.m */; };
+		133AEF7D246A9A4C00162016 /* SipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEED5246A9A4B00162016 /* SipManager.h */; };
+		133AEF7E246A9A4C00162016 /* BuyerTourCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEED6246A9A4B00162016 /* BuyerTourCoordinator.h */; };
+		133AEF7F246A9A4C00162016 /* BuyerTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEED7246A9A4B00162016 /* BuyerTourViewController.m */; };
+		133AEF80246A9A4C00162016 /* SipSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEED8246A9A4B00162016 /* SipSettings.h */; };
+		133AEF81246A9A4C00162016 /* VideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEED9246A9A4B00162016 /* VideoView.h */; };
+		133AEF82246A9A4C00162016 /* ItemsContentCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEDA246A9A4B00162016 /* ItemsContentCollectionViewController.m */; };
+		133AEF83246A9A4C00162016 /* PDPViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEDB246A9A4C00162016 /* PDPViewController.h */; };
+		133AEF84246A9A4C00162016 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133AEEDC246A9A4C00162016 /* MainStoryboard.storyboard */; };
+		133AEF85246A9A4C00162016 /* AboutContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEDD246A9A4C00162016 /* AboutContentTableViewController.m */; };
+		133AEF86246A9A4C00162016 /* MessagesContentTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEDE246A9A4C00162016 /* MessagesContentTableViewController.h */; };
+		133AEF87246A9A4C00162016 /* SendRequestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEDF246A9A4C00162016 /* SendRequestCell.m */; };
+		133AEF88246A9A4C00162016 /* TourViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEE0246A9A4C00162016 /* TourViewController.h */; };
+		133AEF89246A9A4C00162016 /* ShareFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEE2246A9A4C00162016 /* ShareFacebook.h */; };
+		133AEF8A246A9A4C00162016 /* CHPickerField.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEE3246A9A4C00162016 /* CHPickerField.m */; };
+		133AEF8B246A9A4C00162016 /* CHPickerImageDelegateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEE4246A9A4C00162016 /* CHPickerImageDelegateHelper.h */; };
+		133AEF8C246A9A4C00162016 /* CHBindableTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEE5246A9A4C00162016 /* CHBindableTextField.h */; };
+		133AEF8D246A9A4C00162016 /* CHImagePickerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133AEEE6246A9A4C00162016 /* CHImagePickerCollectionViewCell.xib */; };
+		133AEF8E246A9A4C00162016 /* CHDatePickerField.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEE7246A9A4C00162016 /* CHDatePickerField.h */; };
+		133AEF8F246A9A4C00162016 /* CHPickerDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEE8246A9A4C00162016 /* CHPickerDelegateHelper.m */; };
+		133AEF90246A9A4C00162016 /* CHChecksCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEE9246A9A4C00162016 /* CHChecksCollectionView.h */; };
+		133AEF91246A9A4C00162016 /* CHPickerImageField.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEEA246A9A4C00162016 /* CHPickerImageField.m */; };
+		133AEF92246A9A4C00162016 /* CHImagePickerCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133AEEEB246A9A4C00162016 /* CHImagePickerCollectionView.xib */; };
+		133AEF93246A9A4C00162016 /* MessageTextFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEEC246A9A4C00162016 /* MessageTextFieldView.h */; };
+		133AEF94246A9A4C00162016 /* CHImagePickerCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEED246A9A4C00162016 /* CHImagePickerCollectionView.h */; };
+		133AEF95246A9A4C00162016 /* CHBindableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEEE246A9A4C00162016 /* CHBindableTextField.m */; };
+		133AEF96246A9A4C00162016 /* CHPickerImageDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEEF246A9A4C00162016 /* CHPickerImageDelegateHelper.m */; };
+		133AEF97246A9A4C00162016 /* CHPickerField.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEF0246A9A4C00162016 /* CHPickerField.h */; };
+		133AEF98246A9A4C00162016 /* MessageTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133AEEF1246A9A4C00162016 /* MessageTextFieldView.xib */; };
+		133AEF99246A9A4C00162016 /* ShareFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEF2246A9A4C00162016 /* ShareFacebook.m */; };
+		133AEF9A246A9A4C00162016 /* CHPickerDelegateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEF3246A9A4C00162016 /* CHPickerDelegateHelper.h */; };
+		133AEF9B246A9A4C00162016 /* CHDatePickerField.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEF4246A9A4C00162016 /* CHDatePickerField.m */; };
+		133AEF9C246A9A4C00162016 /* CHPickerImageField.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEF5246A9A4C00162016 /* CHPickerImageField.h */; };
+		133AEF9D246A9A4C00162016 /* CHChecksCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEF6246A9A4C00162016 /* CHChecksCollectionView.m */; };
+		133AEF9E246A9A4C00162016 /* CHImagePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEF7246A9A4C00162016 /* CHImagePickerCollectionView.m */; };
+		133AEF9F246A9A4C00162016 /* MessageTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEF8246A9A4C00162016 /* MessageTextFieldView.m */; };
+		133AEFA0246A9A4C00162016 /* ChatCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEFA246A9A4C00162016 /* ChatCell.h */; };
+		133AEFA1246A9A4C00162016 /* CheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEFB246A9A4C00162016 /* CheckCell.m */; };
+		133AEFA2246A9A4C00162016 /* CheckPopupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEEFC246A9A4C00162016 /* CheckPopupCell.h */; };
+		133AEFA3246A9A4C00162016 /* InfoRequestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEFD246A9A4C00162016 /* InfoRequestCell.m */; };
+		133AEFA4246A9A4C00162016 /* TotalPriceCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEFE246A9A4C00162016 /* TotalPriceCollectionReusableView.m */; };
+		133AEFA5246A9A4C00162016 /* ItemContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEEFF246A9A4C00162016 /* ItemContentCell.m */; };
+		133AEFA6246A9A4C00162016 /* EmbededResourceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEF00246A9A4C00162016 /* EmbededResourceCollectionViewCell.m */; };
+		133AEFA7246A9A4C00162016 /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEF01246A9A4C00162016 /* ChatCell.m */; };
+		133AEFA8246A9A4C00162016 /* CheckCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEF02246A9A4C00162016 /* CheckCell.h */; };
+		133AEFA9246A9A4C00162016 /* ItemContentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEF03246A9A4C00162016 /* ItemContentCell.h */; };
+		133AEFAA246A9A4C00162016 /* TotalPriceCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEF04246A9A4C00162016 /* TotalPriceCollectionReusableView.h */; };
+		133AEFAB246A9A4C00162016 /* InfoRequestCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEF05246A9A4C00162016 /* InfoRequestCell.h */; };
+		133AEFAC246A9A4C00162016 /* CheckPopupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 133AEF06246A9A4C00162016 /* CheckPopupCell.m */; };
+		133AEFAD246A9A4C00162016 /* EmbededResourceCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 133AEF07246A9A4C00162016 /* EmbededResourceCollectionViewCell.h */; };
+		133AEFAE246A9A4C00162016 /* buy.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF09246A9A4C00162016 /* buy.png */; };
+		133AEFAF246A9A4C00162016 /* requestHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF0A246A9A4C00162016 /* requestHighlighted.png */; };
+		133AEFB0246A9A4C00162016 /* fullscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF0B246A9A4C00162016 /* fullscreen.png */; };
+		133AEFB1246A9A4C00162016 /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF0C246A9A4C00162016 /* request.png */; };
+		133AEFB2246A9A4C00162016 /* mute off.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF0D246A9A4C00162016 /* mute off.png */; };
+		133AEFB3246A9A4C00162016 /* mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF0E246A9A4C00162016 /* mute.png */; };
+		133AEFB4246A9A4C00162016 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF0F246A9A4C00162016 /* close.png */; };
+		133AEFB5246A9A4D00162016 /* share_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 133AEF10246A9A4C00162016 /* share_btn.png */; };
+		30A5847622417ECD5C567127 /* Pods_Cheryz_CheryzTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98D8F09105C5582508F5076 /* Pods_Cheryz_CheryzTests.framework */; };
+		9BA6E7FF3DF81C5452F52DEA /* Pods_Cheryz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1F7359BD9701E87927FCAB1 /* Pods_Cheryz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		133AEE34246A984600162016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 133AEE20246A984600162016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 133AEE28246A984600162016;
+			remoteInfo = Cheryz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		133AEE29246A984600162016 /* Cheryz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cheryz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		133AEE2C246A984600162016 /* Cheryz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cheryz.h; sourceTree = "<group>"; };
+		133AEE2D246A984600162016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133AEE32246A984600162016 /* CheryzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheryzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		133AEE37246A984600162016 /* CheryzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheryzTests.m; sourceTree = "<group>"; };
+		133AEE39246A984600162016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133AEE5F246A99A300162016 /* CheryzSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheryzSDK.h; sourceTree = "<group>"; };
+		133AEE60246A99A300162016 /* CheryzSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheryzSDK.m; sourceTree = "<group>"; };
+		133AEE64246A9A4B00162016 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		133AEE65246A9A4B00162016 /* TourPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourPop.h; sourceTree = "<group>"; };
+		133AEE66246A9A4B00162016 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		133AEE67246A9A4B00162016 /* TypeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeButton.m; sourceTree = "<group>"; };
+		133AEE68246A9A4B00162016 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		133AEE69246A9A4B00162016 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		133AEE6A246A9A4B00162016 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		133AEE6B246A9A4B00162016 /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tour.m; sourceTree = "<group>"; };
+		133AEE6C246A9A4B00162016 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		133AEE6D246A9A4B00162016 /* CHDuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDuration.h; sourceTree = "<group>"; };
+		133AEE6E246A9A4B00162016 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		133AEE6F246A9A4B00162016 /* TypeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeView.h; sourceTree = "<group>"; };
+		133AEE70246A9A4B00162016 /* Price.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Price.h; sourceTree = "<group>"; };
+		133AEE71246A9A4B00162016 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		133AEE72246A9A4B00162016 /* Bid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bid.m; sourceTree = "<group>"; };
+		133AEE73246A9A4B00162016 /* TimeTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTour.m; sourceTree = "<group>"; };
+		133AEE74246A9A4B00162016 /* NSDate+Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Server.h"; sourceTree = "<group>"; };
+		133AEE75246A9A4B00162016 /* MessageParent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageParent.h; sourceTree = "<group>"; };
+		133AEE76246A9A4B00162016 /* Wishlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wishlist.m; sourceTree = "<group>"; };
+		133AEE77246A9A4B00162016 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		133AEE78246A9A4B00162016 /* TourPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourPop.m; sourceTree = "<group>"; };
+		133AEE79246A9A4B00162016 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		133AEE7A246A9A4B00162016 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		133AEE7B246A9A4B00162016 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		133AEE7C246A9A4B00162016 /* Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		133AEE7D246A9A4B00162016 /* TypeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeButton.h; sourceTree = "<group>"; };
+		133AEE7E246A9A4B00162016 /* TypeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeView.m; sourceTree = "<group>"; };
+		133AEE7F246A9A4B00162016 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		133AEE80246A9A4B00162016 /* CHDuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDuration.m; sourceTree = "<group>"; };
+		133AEE81246A9A4B00162016 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+		133AEE82246A9A4B00162016 /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
+		133AEE83246A9A4B00162016 /* Wishlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wishlist.h; sourceTree = "<group>"; };
+		133AEE84246A9A4B00162016 /* MessageParent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageParent.m; sourceTree = "<group>"; };
+		133AEE85246A9A4B00162016 /* NSDate+Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Server.m"; sourceTree = "<group>"; };
+		133AEE86246A9A4B00162016 /* TimeTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTour.h; sourceTree = "<group>"; };
+		133AEE87246A9A4B00162016 /* Bid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bid.h; sourceTree = "<group>"; };
+		133AEE88246A9A4B00162016 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		133AEE89246A9A4B00162016 /* Price.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Price.m; sourceTree = "<group>"; };
+		133AEE8B246A9A4B00162016 /* CHAPILiveRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAPILiveRequest.h; sourceTree = "<group>"; };
+		133AEE8C246A9A4B00162016 /* GetTourByIDAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTourByIDAPIClient.m; sourceTree = "<group>"; };
+		133AEE8D246A9A4B00162016 /* InfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoRequest.m; sourceTree = "<group>"; };
+		133AEE8E246A9A4B00162016 /* LiveCommandClient+TourCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiveCommandClient+TourCommands.h"; sourceTree = "<group>"; };
+		133AEE8F246A9A4B00162016 /* NALU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NALU.m; sourceTree = "<group>"; };
+		133AEE90246A9A4B00162016 /* WebSocketVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocketVideoPlayer.h; sourceTree = "<group>"; };
+		133AEE91246A9A4B00162016 /* RealtimeManagerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealtimeManagerHelper.h; sourceTree = "<group>"; };
+		133AEE92246A9A4B00162016 /* LiveCommandClient+BuyerBroadcasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiveCommandClient+BuyerBroadcasting.h"; sourceTree = "<group>"; };
+		133AEE93246A9A4B00162016 /* CHAPIResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAPIResponse.m; sourceTree = "<group>"; };
+		133AEE94246A9A4B00162016 /* TourCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourCoordinator.m; sourceTree = "<group>"; };
+		133AEE95246A9A4B00162016 /* LiveCommandClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveCommandClient.h; sourceTree = "<group>"; };
+		133AEE96246A9A4B00162016 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		133AEE97246A9A4B00162016 /* BuyRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyRequest.h; sourceTree = "<group>"; };
+		133AEE98246A9A4B00162016 /* UIColor+Cheryz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Cheryz.h"; sourceTree = "<group>"; };
+		133AEE99246A9A4B00162016 /* LiveCommandClient+ShopperBroadcasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiveCommandClient+ShopperBroadcasting.h"; sourceTree = "<group>"; };
+		133AEE9A246A9A4B00162016 /* SessionSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionSettings.m; sourceTree = "<group>"; };
+		133AEE9B246A9A4B00162016 /* CHUserToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHUserToken.m; sourceTree = "<group>"; };
+		133AEE9C246A9A4B00162016 /* WSVPBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSVPBuffer.h; sourceTree = "<group>"; };
+		133AEE9D246A9A4B00162016 /* UIButton+MiddleAligning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MiddleAligning.m"; sourceTree = "<group>"; };
+		133AEE9E246A9A4B00162016 /* CHAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAPIRequest.m; sourceTree = "<group>"; };
+		133AEE9F246A9A4B00162016 /* TourTabViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourTabViewControllerProtocol.h; sourceTree = "<group>"; };
+		133AEEA0246A9A4B00162016 /* GetTourByIDAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTourByIDAPIClient.h; sourceTree = "<group>"; };
+		133AEEA1246A9A4B00162016 /* CHAPILiveRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHAPILiveRequest.m; sourceTree = "<group>"; };
+		133AEEA2246A9A4B00162016 /* CHAPIResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAPIResponse.h; sourceTree = "<group>"; };
+		133AEEA3246A9A4B00162016 /* LiveCommandClient+BuyerBroadcasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LiveCommandClient+BuyerBroadcasting.m"; sourceTree = "<group>"; };
+		133AEEA4246A9A4B00162016 /* RealtimeManagerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealtimeManagerHelper.m; sourceTree = "<group>"; };
+		133AEEA5246A9A4B00162016 /* WebSocketVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocketVideoPlayer.m; sourceTree = "<group>"; };
+		133AEEA6246A9A4B00162016 /* NALU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NALU.h; sourceTree = "<group>"; };
+		133AEEA7246A9A4B00162016 /* CHAPISettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAPISettings.h; sourceTree = "<group>"; };
+		133AEEA8246A9A4B00162016 /* InfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoRequest.h; sourceTree = "<group>"; };
+		133AEEA9246A9A4B00162016 /* LiveCommandClient+TourCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LiveCommandClient+TourCommands.m"; sourceTree = "<group>"; };
+		133AEEAA246A9A4B00162016 /* BuyRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyRequest.m; sourceTree = "<group>"; };
+		133AEEAB246A9A4B00162016 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		133AEEAC246A9A4B00162016 /* LiveCommandClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveCommandClient.m; sourceTree = "<group>"; };
+		133AEEAD246A9A4B00162016 /* TourCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourCoordinator.h; sourceTree = "<group>"; };
+		133AEEAE246A9A4B00162016 /* CHAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHAPIRequest.h; sourceTree = "<group>"; };
+		133AEEAF246A9A4B00162016 /* UIButton+MiddleAligning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MiddleAligning.h"; sourceTree = "<group>"; };
+		133AEEB0246A9A4B00162016 /* WSVPBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSVPBuffer.m; sourceTree = "<group>"; };
+		133AEEB1246A9A4B00162016 /* SessionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionSettings.h; sourceTree = "<group>"; };
+		133AEEB2246A9A4B00162016 /* CHUserToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHUserToken.h; sourceTree = "<group>"; };
+		133AEEB3246A9A4B00162016 /* LiveCommandClient+ShopperBroadcasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LiveCommandClient+ShopperBroadcasting.m"; sourceTree = "<group>"; };
+		133AEEB4246A9A4B00162016 /* UIColor+Cheryz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Cheryz.m"; sourceTree = "<group>"; };
+		133AEEB6246A9A4B00162016 /* AuthorizationAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationAPI.h; sourceTree = "<group>"; };
+		133AEEB7246A9A4B00162016 /* ToursAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToursAPI.h; sourceTree = "<group>"; };
+		133AEEB8246A9A4B00162016 /* AuthorizationAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationAPI.m; sourceTree = "<group>"; };
+		133AEEB9246A9A4B00162016 /* ToursAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToursAPI.m; sourceTree = "<group>"; };
+		133AEEBB246A9A4B00162016 /* BuyerTourPopupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerTourPopupsViewController.h; sourceTree = "<group>"; };
+		133AEEBC246A9A4B00162016 /* CHVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHVideoPlayer.h; sourceTree = "<group>"; };
+		133AEEBD246A9A4B00162016 /* BuyerAPILiveCommands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerAPILiveCommands.m; sourceTree = "<group>"; };
+		133AEEBE246A9A4B00162016 /* RequestPrivateTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestPrivateTourViewController.m; sourceTree = "<group>"; };
+		133AEEBF246A9A4B00162016 /* PDPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPViewController.m; sourceTree = "<group>"; };
+		133AEEC0246A9A4B00162016 /* ItemsContentCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsContentCollectionViewController.h; sourceTree = "<group>"; };
+		133AEEC2246A9A4B00162016 /* BuyerFinishedTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerFinishedTourViewController.h; sourceTree = "<group>"; };
+		133AEEC3246A9A4B00162016 /* BuyerFinishedTourCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerFinishedTourCoordinator.h; sourceTree = "<group>"; };
+		133AEEC4246A9A4B00162016 /* BuyerFinishedTourCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerFinishedTourCoordinator.m; sourceTree = "<group>"; };
+		133AEEC5246A9A4B00162016 /* BuyerFinishedTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerFinishedTourViewController.m; sourceTree = "<group>"; };
+		133AEEC6246A9A4B00162016 /* BuyersTourStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BuyersTourStoryboard.storyboard; sourceTree = "<group>"; };
+		133AEEC7246A9A4B00162016 /* VideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		133AEEC8246A9A4B00162016 /* TourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourViewController.m; sourceTree = "<group>"; };
+		133AEEC9246A9A4B00162016 /* SendRequestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendRequestCell.h; sourceTree = "<group>"; };
+		133AEECA246A9A4B00162016 /* MessagesContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesContentTableViewController.m; sourceTree = "<group>"; };
+		133AEECB246A9A4B00162016 /* AboutContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutContentTableViewController.h; sourceTree = "<group>"; };
+		133AEECC246A9A4B00162016 /* CHVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHVideoPlayer.m; sourceTree = "<group>"; };
+		133AEECD246A9A4B00162016 /* BuyerTourPopupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerTourPopupsViewController.m; sourceTree = "<group>"; };
+		133AEECE246A9A4B00162016 /* BuyerAPILiveCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerAPILiveCommands.h; sourceTree = "<group>"; };
+		133AEECF246A9A4B00162016 /* RequestPrivateTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestPrivateTourViewController.h; sourceTree = "<group>"; };
+		133AEED1246A9A4B00162016 /* SipSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SipSettings.m; sourceTree = "<group>"; };
+		133AEED2246A9A4B00162016 /* BuyerTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerTourViewController.h; sourceTree = "<group>"; };
+		133AEED3246A9A4B00162016 /* SipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SipManager.m; sourceTree = "<group>"; };
+		133AEED4246A9A4B00162016 /* BuyerTourCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerTourCoordinator.m; sourceTree = "<group>"; };
+		133AEED5246A9A4B00162016 /* SipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipManager.h; sourceTree = "<group>"; };
+		133AEED6246A9A4B00162016 /* BuyerTourCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerTourCoordinator.h; sourceTree = "<group>"; };
+		133AEED7246A9A4B00162016 /* BuyerTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerTourViewController.m; sourceTree = "<group>"; };
+		133AEED8246A9A4B00162016 /* SipSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SipSettings.h; sourceTree = "<group>"; };
+		133AEED9246A9A4B00162016 /* VideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		133AEEDA246A9A4B00162016 /* ItemsContentCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsContentCollectionViewController.m; sourceTree = "<group>"; };
+		133AEEDB246A9A4C00162016 /* PDPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPViewController.h; sourceTree = "<group>"; };
+		133AEEDC246A9A4C00162016 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		133AEEDD246A9A4C00162016 /* AboutContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutContentTableViewController.m; sourceTree = "<group>"; };
+		133AEEDE246A9A4C00162016 /* MessagesContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesContentTableViewController.h; sourceTree = "<group>"; };
+		133AEEDF246A9A4C00162016 /* SendRequestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendRequestCell.m; sourceTree = "<group>"; };
+		133AEEE0246A9A4C00162016 /* TourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourViewController.h; sourceTree = "<group>"; };
+		133AEEE2246A9A4C00162016 /* ShareFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareFacebook.h; sourceTree = "<group>"; };
+		133AEEE3246A9A4C00162016 /* CHPickerField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPickerField.m; sourceTree = "<group>"; };
+		133AEEE4246A9A4C00162016 /* CHPickerImageDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPickerImageDelegateHelper.h; sourceTree = "<group>"; };
+		133AEEE5246A9A4C00162016 /* CHBindableTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHBindableTextField.h; sourceTree = "<group>"; };
+		133AEEE6246A9A4C00162016 /* CHImagePickerCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHImagePickerCollectionViewCell.xib; sourceTree = "<group>"; };
+		133AEEE7246A9A4C00162016 /* CHDatePickerField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDatePickerField.h; sourceTree = "<group>"; };
+		133AEEE8246A9A4C00162016 /* CHPickerDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPickerDelegateHelper.m; sourceTree = "<group>"; };
+		133AEEE9246A9A4C00162016 /* CHChecksCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHChecksCollectionView.h; sourceTree = "<group>"; };
+		133AEEEA246A9A4C00162016 /* CHPickerImageField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPickerImageField.m; sourceTree = "<group>"; };
+		133AEEEB246A9A4C00162016 /* CHImagePickerCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHImagePickerCollectionView.xib; sourceTree = "<group>"; };
+		133AEEEC246A9A4C00162016 /* MessageTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTextFieldView.h; sourceTree = "<group>"; };
+		133AEEED246A9A4C00162016 /* CHImagePickerCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHImagePickerCollectionView.h; sourceTree = "<group>"; };
+		133AEEEE246A9A4C00162016 /* CHBindableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHBindableTextField.m; sourceTree = "<group>"; };
+		133AEEEF246A9A4C00162016 /* CHPickerImageDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPickerImageDelegateHelper.m; sourceTree = "<group>"; };
+		133AEEF0246A9A4C00162016 /* CHPickerField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPickerField.h; sourceTree = "<group>"; };
+		133AEEF1246A9A4C00162016 /* MessageTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTextFieldView.xib; sourceTree = "<group>"; };
+		133AEEF2246A9A4C00162016 /* ShareFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareFacebook.m; sourceTree = "<group>"; };
+		133AEEF3246A9A4C00162016 /* CHPickerDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPickerDelegateHelper.h; sourceTree = "<group>"; };
+		133AEEF4246A9A4C00162016 /* CHDatePickerField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDatePickerField.m; sourceTree = "<group>"; };
+		133AEEF5246A9A4C00162016 /* CHPickerImageField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPickerImageField.h; sourceTree = "<group>"; };
+		133AEEF6246A9A4C00162016 /* CHChecksCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHChecksCollectionView.m; sourceTree = "<group>"; };
+		133AEEF7246A9A4C00162016 /* CHImagePickerCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHImagePickerCollectionView.m; sourceTree = "<group>"; };
+		133AEEF8246A9A4C00162016 /* MessageTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTextFieldView.m; sourceTree = "<group>"; };
+		133AEEFA246A9A4C00162016 /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		133AEEFB246A9A4C00162016 /* CheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckCell.m; sourceTree = "<group>"; };
+		133AEEFC246A9A4C00162016 /* CheckPopupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckPopupCell.h; sourceTree = "<group>"; };
+		133AEEFD246A9A4C00162016 /* InfoRequestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoRequestCell.m; sourceTree = "<group>"; };
+		133AEEFE246A9A4C00162016 /* TotalPriceCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalPriceCollectionReusableView.m; sourceTree = "<group>"; };
+		133AEEFF246A9A4C00162016 /* ItemContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemContentCell.m; sourceTree = "<group>"; };
+		133AEF00246A9A4C00162016 /* EmbededResourceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbededResourceCollectionViewCell.m; sourceTree = "<group>"; };
+		133AEF01246A9A4C00162016 /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		133AEF02246A9A4C00162016 /* CheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckCell.h; sourceTree = "<group>"; };
+		133AEF03246A9A4C00162016 /* ItemContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemContentCell.h; sourceTree = "<group>"; };
+		133AEF04246A9A4C00162016 /* TotalPriceCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalPriceCollectionReusableView.h; sourceTree = "<group>"; };
+		133AEF05246A9A4C00162016 /* InfoRequestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoRequestCell.h; sourceTree = "<group>"; };
+		133AEF06246A9A4C00162016 /* CheckPopupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckPopupCell.m; sourceTree = "<group>"; };
+		133AEF07246A9A4C00162016 /* EmbededResourceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbededResourceCollectionViewCell.h; sourceTree = "<group>"; };
+		133AEF09246A9A4C00162016 /* buy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy.png; sourceTree = "<group>"; };
+		133AEF0A246A9A4C00162016 /* requestHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = requestHighlighted.png; sourceTree = "<group>"; };
+		133AEF0B246A9A4C00162016 /* fullscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullscreen.png; sourceTree = "<group>"; };
+		133AEF0C246A9A4C00162016 /* request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = request.png; sourceTree = "<group>"; };
+		133AEF0D246A9A4C00162016 /* mute off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mute off.png"; sourceTree = "<group>"; };
+		133AEF0E246A9A4C00162016 /* mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute.png; sourceTree = "<group>"; };
+		133AEF0F246A9A4C00162016 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		133AEF10246A9A4C00162016 /* share_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_btn.png; sourceTree = "<group>"; };
+		3257B83E52965CAD750E1386 /* Pods-Cheryz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheryz.debug.xcconfig"; path = "Target Support Files/Pods-Cheryz/Pods-Cheryz.debug.xcconfig"; sourceTree = "<group>"; };
+		583136458A91B1A3E842A9FF /* Pods-Cheryz-CheryzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheryz-CheryzTests.release.xcconfig"; path = "Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD44E372F0E1707B8A70552 /* Pods-Cheryz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheryz.release.xcconfig"; path = "Target Support Files/Pods-Cheryz/Pods-Cheryz.release.xcconfig"; sourceTree = "<group>"; };
+		B98D8F09105C5582508F5076 /* Pods_Cheryz_CheryzTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheryz_CheryzTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F7359BD9701E87927FCAB1 /* Pods_Cheryz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cheryz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C950B9BAA81EFD616BDC162C /* Pods-Cheryz-CheryzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cheryz-CheryzTests.debug.xcconfig"; path = "Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		133AEE26246A984600162016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA6E7FF3DF81C5452F52DEA /* Pods_Cheryz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133AEE2F246A984600162016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133AEE33246A984600162016 /* Cheryz.framework in Frameworks */,
+				30A5847622417ECD5C567127 /* Pods_Cheryz_CheryzTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		133AEE1F246A984600162016 = {
+			isa = PBXGroup;
+			children = (
+				133AEE2B246A984600162016 /* Cheryz */,
+				133AEE36246A984600162016 /* CheryzTests */,
+				133AEE2A246A984600162016 /* Products */,
+				D1709659E70770F1D1833C9E /* Pods */,
+				6E2D0F8B6FC55788CDB41E56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		133AEE2A246A984600162016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				133AEE29246A984600162016 /* Cheryz.framework */,
+				133AEE32246A984600162016 /* CheryzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		133AEE2B246A984600162016 /* Cheryz */ = {
+			isa = PBXGroup;
+			children = (
+				133AEE8A246A9A4B00162016 /* Base */,
+				133AEEF9246A9A4C00162016 /* Cells */,
+				133AEEBA246A9A4B00162016 /* Main */,
+				133AEE63246A9A4B00162016 /* Models */,
+				133AEEB5246A9A4B00162016 /* Requests */,
+				133AEF08246A9A4C00162016 /* Resources */,
+				133AEEE1246A9A4C00162016 /* Views */,
+				133AEE2C246A984600162016 /* Cheryz.h */,
+				133AEE5F246A99A300162016 /* CheryzSDK.h */,
+				133AEE60246A99A300162016 /* CheryzSDK.m */,
+				133AEE2D246A984600162016 /* Info.plist */,
+			);
+			path = Cheryz;
+			sourceTree = "<group>";
+		};
+		133AEE36246A984600162016 /* CheryzTests */ = {
+			isa = PBXGroup;
+			children = (
+				133AEE37246A984600162016 /* CheryzTests.m */,
+				133AEE39246A984600162016 /* Info.plist */,
+			);
+			path = CheryzTests;
+			sourceTree = "<group>";
+		};
+		133AEE63246A9A4B00162016 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				133AEE64246A9A4B00162016 /* AlertView.h */,
+				133AEE65246A9A4B00162016 /* TourPop.h */,
+				133AEE66246A9A4B00162016 /* Order.m */,
+				133AEE67246A9A4B00162016 /* TypeButton.m */,
+				133AEE68246A9A4B00162016 /* Device.h */,
+				133AEE69246A9A4B00162016 /* Product.h */,
+				133AEE6A246A9A4B00162016 /* User.m */,
+				133AEE6B246A9A4B00162016 /* Tour.m */,
+				133AEE6C246A9A4B00162016 /* Currency.h */,
+				133AEE6D246A9A4B00162016 /* CHDuration.h */,
+				133AEE6E246A9A4B00162016 /* Location.m */,
+				133AEE6F246A9A4B00162016 /* TypeView.h */,
+				133AEE70246A9A4B00162016 /* Price.h */,
+				133AEE71246A9A4B00162016 /* Message.h */,
+				133AEE72246A9A4B00162016 /* Bid.m */,
+				133AEE73246A9A4B00162016 /* TimeTour.m */,
+				133AEE74246A9A4B00162016 /* NSDate+Server.h */,
+				133AEE75246A9A4B00162016 /* MessageParent.h */,
+				133AEE76246A9A4B00162016 /* Wishlist.m */,
+				133AEE77246A9A4B00162016 /* Order.h */,
+				133AEE78246A9A4B00162016 /* TourPop.m */,
+				133AEE79246A9A4B00162016 /* AlertView.m */,
+				133AEE7A246A9A4B00162016 /* User.h */,
+				133AEE7B246A9A4B00162016 /* Product.m */,
+				133AEE7C246A9A4B00162016 /* Device.m */,
+				133AEE7D246A9A4B00162016 /* TypeButton.h */,
+				133AEE7E246A9A4B00162016 /* TypeView.m */,
+				133AEE7F246A9A4B00162016 /* Location.h */,
+				133AEE80246A9A4B00162016 /* CHDuration.m */,
+				133AEE81246A9A4B00162016 /* Currency.m */,
+				133AEE82246A9A4B00162016 /* Tour.h */,
+				133AEE83246A9A4B00162016 /* Wishlist.h */,
+				133AEE84246A9A4B00162016 /* MessageParent.m */,
+				133AEE85246A9A4B00162016 /* NSDate+Server.m */,
+				133AEE86246A9A4B00162016 /* TimeTour.h */,
+				133AEE87246A9A4B00162016 /* Bid.h */,
+				133AEE88246A9A4B00162016 /* Message.m */,
+				133AEE89246A9A4B00162016 /* Price.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		133AEE8A246A9A4B00162016 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				133AEE8B246A9A4B00162016 /* CHAPILiveRequest.h */,
+				133AEE8C246A9A4B00162016 /* GetTourByIDAPIClient.m */,
+				133AEE8D246A9A4B00162016 /* InfoRequest.m */,
+				133AEE8E246A9A4B00162016 /* LiveCommandClient+TourCommands.h */,
+				133AEE8F246A9A4B00162016 /* NALU.m */,
+				133AEE90246A9A4B00162016 /* WebSocketVideoPlayer.h */,
+				133AEE91246A9A4B00162016 /* RealtimeManagerHelper.h */,
+				133AEE92246A9A4B00162016 /* LiveCommandClient+BuyerBroadcasting.h */,
+				133AEE93246A9A4B00162016 /* CHAPIResponse.m */,
+				133AEE94246A9A4B00162016 /* TourCoordinator.m */,
+				133AEE95246A9A4B00162016 /* LiveCommandClient.h */,
+				133AEE96246A9A4B00162016 /* Router.m */,
+				133AEE97246A9A4B00162016 /* BuyRequest.h */,
+				133AEE98246A9A4B00162016 /* UIColor+Cheryz.h */,
+				133AEE99246A9A4B00162016 /* LiveCommandClient+ShopperBroadcasting.h */,
+				133AEE9A246A9A4B00162016 /* SessionSettings.m */,
+				133AEE9B246A9A4B00162016 /* CHUserToken.m */,
+				133AEE9C246A9A4B00162016 /* WSVPBuffer.h */,
+				133AEE9D246A9A4B00162016 /* UIButton+MiddleAligning.m */,
+				133AEE9E246A9A4B00162016 /* CHAPIRequest.m */,
+				133AEE9F246A9A4B00162016 /* TourTabViewControllerProtocol.h */,
+				133AEEA0246A9A4B00162016 /* GetTourByIDAPIClient.h */,
+				133AEEA1246A9A4B00162016 /* CHAPILiveRequest.m */,
+				133AEEA2246A9A4B00162016 /* CHAPIResponse.h */,
+				133AEEA3246A9A4B00162016 /* LiveCommandClient+BuyerBroadcasting.m */,
+				133AEEA4246A9A4B00162016 /* RealtimeManagerHelper.m */,
+				133AEEA5246A9A4B00162016 /* WebSocketVideoPlayer.m */,
+				133AEEA6246A9A4B00162016 /* NALU.h */,
+				133AEEA7246A9A4B00162016 /* CHAPISettings.h */,
+				133AEEA8246A9A4B00162016 /* InfoRequest.h */,
+				133AEEA9246A9A4B00162016 /* LiveCommandClient+TourCommands.m */,
+				133AEEAA246A9A4B00162016 /* BuyRequest.m */,
+				133AEEAB246A9A4B00162016 /* Router.h */,
+				133AEEAC246A9A4B00162016 /* LiveCommandClient.m */,
+				133AEEAD246A9A4B00162016 /* TourCoordinator.h */,
+				133AEEAE246A9A4B00162016 /* CHAPIRequest.h */,
+				133AEEAF246A9A4B00162016 /* UIButton+MiddleAligning.h */,
+				133AEEB0246A9A4B00162016 /* WSVPBuffer.m */,
+				133AEEB1246A9A4B00162016 /* SessionSettings.h */,
+				133AEEB2246A9A4B00162016 /* CHUserToken.h */,
+				133AEEB3246A9A4B00162016 /* LiveCommandClient+ShopperBroadcasting.m */,
+				133AEEB4246A9A4B00162016 /* UIColor+Cheryz.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		133AEEB5246A9A4B00162016 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				133AEEB6246A9A4B00162016 /* AuthorizationAPI.h */,
+				133AEEB7246A9A4B00162016 /* ToursAPI.h */,
+				133AEEB8246A9A4B00162016 /* AuthorizationAPI.m */,
+				133AEEB9246A9A4B00162016 /* ToursAPI.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		133AEEBA246A9A4B00162016 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				133AEEBB246A9A4B00162016 /* BuyerTourPopupsViewController.h */,
+				133AEEBC246A9A4B00162016 /* CHVideoPlayer.h */,
+				133AEEBD246A9A4B00162016 /* BuyerAPILiveCommands.m */,
+				133AEEBE246A9A4B00162016 /* RequestPrivateTourViewController.m */,
+				133AEEBF246A9A4B00162016 /* PDPViewController.m */,
+				133AEEC0246A9A4B00162016 /* ItemsContentCollectionViewController.h */,
+				133AEEC1246A9A4B00162016 /* Buyer Finished Tour */,
+				133AEEC7246A9A4B00162016 /* VideoView.m */,
+				133AEEC8246A9A4B00162016 /* TourViewController.m */,
+				133AEEC9246A9A4B00162016 /* SendRequestCell.h */,
+				133AEECA246A9A4B00162016 /* MessagesContentTableViewController.m */,
+				133AEECB246A9A4B00162016 /* AboutContentTableViewController.h */,
+				133AEECC246A9A4B00162016 /* CHVideoPlayer.m */,
+				133AEECD246A9A4B00162016 /* BuyerTourPopupsViewController.m */,
+				133AEECE246A9A4B00162016 /* BuyerAPILiveCommands.h */,
+				133AEECF246A9A4B00162016 /* RequestPrivateTourViewController.h */,
+				133AEED0246A9A4B00162016 /* Broadcast Tour */,
+				133AEED9246A9A4B00162016 /* VideoView.h */,
+				133AEEDA246A9A4B00162016 /* ItemsContentCollectionViewController.m */,
+				133AEEDB246A9A4C00162016 /* PDPViewController.h */,
+				133AEEDC246A9A4C00162016 /* MainStoryboard.storyboard */,
+				133AEEDD246A9A4C00162016 /* AboutContentTableViewController.m */,
+				133AEEDE246A9A4C00162016 /* MessagesContentTableViewController.h */,
+				133AEEDF246A9A4C00162016 /* SendRequestCell.m */,
+				133AEEE0246A9A4C00162016 /* TourViewController.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		133AEEC1246A9A4B00162016 /* Buyer Finished Tour */ = {
+			isa = PBXGroup;
+			children = (
+				133AEEC2246A9A4B00162016 /* BuyerFinishedTourViewController.h */,
+				133AEEC3246A9A4B00162016 /* BuyerFinishedTourCoordinator.h */,
+				133AEEC4246A9A4B00162016 /* BuyerFinishedTourCoordinator.m */,
+				133AEEC5246A9A4B00162016 /* BuyerFinishedTourViewController.m */,
+				133AEEC6246A9A4B00162016 /* BuyersTourStoryboard.storyboard */,
+			);
+			path = "Buyer Finished Tour";
+			sourceTree = "<group>";
+		};
+		133AEED0246A9A4B00162016 /* Broadcast Tour */ = {
+			isa = PBXGroup;
+			children = (
+				133AEED1246A9A4B00162016 /* SipSettings.m */,
+				133AEED2246A9A4B00162016 /* BuyerTourViewController.h */,
+				133AEED3246A9A4B00162016 /* SipManager.m */,
+				133AEED4246A9A4B00162016 /* BuyerTourCoordinator.m */,
+				133AEED5246A9A4B00162016 /* SipManager.h */,
+				133AEED6246A9A4B00162016 /* BuyerTourCoordinator.h */,
+				133AEED7246A9A4B00162016 /* BuyerTourViewController.m */,
+				133AEED8246A9A4B00162016 /* SipSettings.h */,
+			);
+			path = "Broadcast Tour";
+			sourceTree = "<group>";
+		};
+		133AEEE1246A9A4C00162016 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				133AEEE2246A9A4C00162016 /* ShareFacebook.h */,
+				133AEEE3246A9A4C00162016 /* CHPickerField.m */,
+				133AEEE4246A9A4C00162016 /* CHPickerImageDelegateHelper.h */,
+				133AEEE5246A9A4C00162016 /* CHBindableTextField.h */,
+				133AEEE6246A9A4C00162016 /* CHImagePickerCollectionViewCell.xib */,
+				133AEEE7246A9A4C00162016 /* CHDatePickerField.h */,
+				133AEEE8246A9A4C00162016 /* CHPickerDelegateHelper.m */,
+				133AEEE9246A9A4C00162016 /* CHChecksCollectionView.h */,
+				133AEEEA246A9A4C00162016 /* CHPickerImageField.m */,
+				133AEEEB246A9A4C00162016 /* CHImagePickerCollectionView.xib */,
+				133AEEEC246A9A4C00162016 /* MessageTextFieldView.h */,
+				133AEEED246A9A4C00162016 /* CHImagePickerCollectionView.h */,
+				133AEEEE246A9A4C00162016 /* CHBindableTextField.m */,
+				133AEEEF246A9A4C00162016 /* CHPickerImageDelegateHelper.m */,
+				133AEEF0246A9A4C00162016 /* CHPickerField.h */,
+				133AEEF1246A9A4C00162016 /* MessageTextFieldView.xib */,
+				133AEEF2246A9A4C00162016 /* ShareFacebook.m */,
+				133AEEF3246A9A4C00162016 /* CHPickerDelegateHelper.h */,
+				133AEEF4246A9A4C00162016 /* CHDatePickerField.m */,
+				133AEEF5246A9A4C00162016 /* CHPickerImageField.h */,
+				133AEEF6246A9A4C00162016 /* CHChecksCollectionView.m */,
+				133AEEF7246A9A4C00162016 /* CHImagePickerCollectionView.m */,
+				133AEEF8246A9A4C00162016 /* MessageTextFieldView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		133AEEF9246A9A4C00162016 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				133AEEFA246A9A4C00162016 /* ChatCell.h */,
+				133AEEFB246A9A4C00162016 /* CheckCell.m */,
+				133AEEFC246A9A4C00162016 /* CheckPopupCell.h */,
+				133AEEFD246A9A4C00162016 /* InfoRequestCell.m */,
+				133AEEFE246A9A4C00162016 /* TotalPriceCollectionReusableView.m */,
+				133AEEFF246A9A4C00162016 /* ItemContentCell.m */,
+				133AEF00246A9A4C00162016 /* EmbededResourceCollectionViewCell.m */,
+				133AEF01246A9A4C00162016 /* ChatCell.m */,
+				133AEF02246A9A4C00162016 /* CheckCell.h */,
+				133AEF03246A9A4C00162016 /* ItemContentCell.h */,
+				133AEF04246A9A4C00162016 /* TotalPriceCollectionReusableView.h */,
+				133AEF05246A9A4C00162016 /* InfoRequestCell.h */,
+				133AEF06246A9A4C00162016 /* CheckPopupCell.m */,
+				133AEF07246A9A4C00162016 /* EmbededResourceCollectionViewCell.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		133AEF08246A9A4C00162016 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				133AEF09246A9A4C00162016 /* buy.png */,
+				133AEF0A246A9A4C00162016 /* requestHighlighted.png */,
+				133AEF0B246A9A4C00162016 /* fullscreen.png */,
+				133AEF0C246A9A4C00162016 /* request.png */,
+				133AEF0D246A9A4C00162016 /* mute off.png */,
+				133AEF0E246A9A4C00162016 /* mute.png */,
+				133AEF0F246A9A4C00162016 /* close.png */,
+				133AEF10246A9A4C00162016 /* share_btn.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E2D0F8B6FC55788CDB41E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1F7359BD9701E87927FCAB1 /* Pods_Cheryz.framework */,
+				B98D8F09105C5582508F5076 /* Pods_Cheryz_CheryzTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1709659E70770F1D1833C9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3257B83E52965CAD750E1386 /* Pods-Cheryz.debug.xcconfig */,
+				9FD44E372F0E1707B8A70552 /* Pods-Cheryz.release.xcconfig */,
+				C950B9BAA81EFD616BDC162C /* Pods-Cheryz-CheryzTests.debug.xcconfig */,
+				583136458A91B1A3E842A9FF /* Pods-Cheryz-CheryzTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		133AEE24246A984600162016 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133AEF9A246A9A4C00162016 /* CHPickerDelegateHelper.h in Headers */,
+				133AEF80246A9A4C00162016 /* SipSettings.h in Headers */,
+				133AEF2A246A9A4C00162016 /* TypeButton.h in Headers */,
+				133AEF4C246A9A4C00162016 /* GetTourByIDAPIClient.h in Headers */,
+				133AEF94246A9A4C00162016 /* CHImagePickerCollectionView.h in Headers */,
+				133AEF7E246A9A4C00162016 /* BuyerTourCoordinator.h in Headers */,
+				133AEFA2246A9A4C00162016 /* CheckPopupCell.h in Headers */,
+				133AEF1D246A9A4C00162016 /* Price.h in Headers */,
+				133AEF61246A9A4C00162016 /* AuthorizationAPI.h in Headers */,
+				133AEF1C246A9A4C00162016 /* TypeView.h in Headers */,
+				133AEF5D246A9A4C00162016 /* SessionSettings.h in Headers */,
+				133AEF16246A9A4C00162016 /* Product.h in Headers */,
+				133AEF93246A9A4C00162016 /* MessageTextFieldView.h in Headers */,
+				133AEF8C246A9A4C00162016 /* CHBindableTextField.h in Headers */,
+				133AEF48246A9A4C00162016 /* WSVPBuffer.h in Headers */,
+				133AEF90246A9A4C00162016 /* CHChecksCollectionView.h in Headers */,
+				133AEF37246A9A4C00162016 /* CHAPILiveRequest.h in Headers */,
+				133AEF7D246A9A4C00162016 /* SipManager.h in Headers */,
+				133AEF5E246A9A4C00162016 /* CHUserToken.h in Headers */,
+				133AEF24246A9A4C00162016 /* Order.h in Headers */,
+				133AEF4B246A9A4C00162016 /* TourTabViewControllerProtocol.h in Headers */,
+				133AEF65246A9A4C00162016 /* BuyerTourPopupsViewController.h in Headers */,
+				133AEF86246A9A4C00162016 /* MessagesContentTableViewController.h in Headers */,
+				133AEF30246A9A4C00162016 /* Wishlist.h in Headers */,
+				133AEF34246A9A4C00162016 /* Bid.h in Headers */,
+				133AEFA9246A9A4C00162016 /* ItemContentCell.h in Headers */,
+				133AEF12246A9A4C00162016 /* TourPop.h in Headers */,
+				133AEF97246A9A4C00162016 /* CHPickerField.h in Headers */,
+				133AEF11246A9A4C00162016 /* AlertView.h in Headers */,
+				133AEF8E246A9A4C00162016 /* CHDatePickerField.h in Headers */,
+				133AEF2C246A9A4C00162016 /* Location.h in Headers */,
+				133AEF1A246A9A4C00162016 /* CHDuration.h in Headers */,
+				133AEF52246A9A4C00162016 /* NALU.h in Headers */,
+				133AEF66246A9A4C00162016 /* CHVideoPlayer.h in Headers */,
+				133AEF5B246A9A4C00162016 /* UIButton+MiddleAligning.h in Headers */,
+				133AEF54246A9A4C00162016 /* InfoRequest.h in Headers */,
+				133AEF4E246A9A4C00162016 /* CHAPIResponse.h in Headers */,
+				133AEF74246A9A4C00162016 /* AboutContentTableViewController.h in Headers */,
+				133AEF83246A9A4C00162016 /* PDPViewController.h in Headers */,
+				133AEF77246A9A4C00162016 /* BuyerAPILiveCommands.h in Headers */,
+				133AEF5A246A9A4C00162016 /* CHAPIRequest.h in Headers */,
+				133AEFAA246A9A4C00162016 /* TotalPriceCollectionReusableView.h in Headers */,
+				133AEF6C246A9A4C00162016 /* BuyerFinishedTourCoordinator.h in Headers */,
+				133AEF62246A9A4C00162016 /* ToursAPI.h in Headers */,
+				133AEF72246A9A4C00162016 /* SendRequestCell.h in Headers */,
+				133AEF9C246A9A4C00162016 /* CHPickerImageField.h in Headers */,
+				133AEF44246A9A4C00162016 /* UIColor+Cheryz.h in Headers */,
+				133AEF22246A9A4C00162016 /* MessageParent.h in Headers */,
+				133AEF53246A9A4C00162016 /* CHAPISettings.h in Headers */,
+				133AEF41246A9A4C00162016 /* LiveCommandClient.h in Headers */,
+				133AEE61246A99A300162016 /* CheryzSDK.h in Headers */,
+				133AEF59246A9A4C00162016 /* TourCoordinator.h in Headers */,
+				133AEF1E246A9A4C00162016 /* Message.h in Headers */,
+				133AEF3C246A9A4C00162016 /* WebSocketVideoPlayer.h in Headers */,
+				133AEF3A246A9A4C00162016 /* LiveCommandClient+TourCommands.h in Headers */,
+				133AEF6B246A9A4C00162016 /* BuyerFinishedTourViewController.h in Headers */,
+				133AEF27246A9A4C00162016 /* User.h in Headers */,
+				133AEF81246A9A4C00162016 /* VideoView.h in Headers */,
+				133AEFAB246A9A4C00162016 /* InfoRequestCell.h in Headers */,
+				133AEF78246A9A4C00162016 /* RequestPrivateTourViewController.h in Headers */,
+				133AEF6A246A9A4C00162016 /* ItemsContentCollectionViewController.h in Headers */,
+				133AEF43246A9A4C00162016 /* BuyRequest.h in Headers */,
+				133AEFA8246A9A4C00162016 /* CheckCell.h in Headers */,
+				133AEF19246A9A4C00162016 /* Currency.h in Headers */,
+				133AEF45246A9A4C00162016 /* LiveCommandClient+ShopperBroadcasting.h in Headers */,
+				133AEF2F246A9A4C00162016 /* Tour.h in Headers */,
+				133AEF7A246A9A4C00162016 /* BuyerTourViewController.h in Headers */,
+				133AEF89246A9A4C00162016 /* ShareFacebook.h in Headers */,
+				133AEF3E246A9A4C00162016 /* LiveCommandClient+BuyerBroadcasting.h in Headers */,
+				133AEF15246A9A4C00162016 /* Device.h in Headers */,
+				133AEFA0246A9A4C00162016 /* ChatCell.h in Headers */,
+				133AEFAD246A9A4C00162016 /* EmbededResourceCollectionViewCell.h in Headers */,
+				133AEF33246A9A4C00162016 /* TimeTour.h in Headers */,
+				133AEF8B246A9A4C00162016 /* CHPickerImageDelegateHelper.h in Headers */,
+				133AEF21246A9A4C00162016 /* NSDate+Server.h in Headers */,
+				133AEF57246A9A4C00162016 /* Router.h in Headers */,
+				133AEF88246A9A4C00162016 /* TourViewController.h in Headers */,
+				133AEF3D246A9A4C00162016 /* RealtimeManagerHelper.h in Headers */,
+				133AEE3A246A984600162016 /* Cheryz.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		133AEE28246A984600162016 /* Cheryz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133AEE3D246A984600162016 /* Build configuration list for PBXNativeTarget "Cheryz" */;
+			buildPhases = (
+				D5E0AA10726C4CC837B499C3 /* [CP] Check Pods Manifest.lock */,
+				133AEE24246A984600162016 /* Headers */,
+				133AEE25246A984600162016 /* Sources */,
+				133AEE26246A984600162016 /* Frameworks */,
+				133AEE27246A984600162016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cheryz;
+			productName = Cheryz;
+			productReference = 133AEE29246A984600162016 /* Cheryz.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		133AEE31246A984600162016 /* CheryzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133AEE40246A984600162016 /* Build configuration list for PBXNativeTarget "CheryzTests" */;
+			buildPhases = (
+				5A3F512BE504E547557BAACF /* [CP] Check Pods Manifest.lock */,
+				133AEE2E246A984600162016 /* Sources */,
+				133AEE2F246A984600162016 /* Frameworks */,
+				133AEE30246A984600162016 /* Resources */,
+				D14A7B0E019C8393AECFDA8F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				133AEE35246A984600162016 /* PBXTargetDependency */,
+			);
+			name = CheryzTests;
+			productName = CheryzTests;
+			productReference = 133AEE32246A984600162016 /* CheryzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		133AEE20246A984600162016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Viktor Todorov";
+				TargetAttributes = {
+					133AEE28246A984600162016 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					133AEE31246A984600162016 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 133AEE23246A984600162016 /* Build configuration list for PBXProject "Cheryz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 133AEE1F246A984600162016;
+			productRefGroup = 133AEE2A246A984600162016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				133AEE28246A984600162016 /* Cheryz */,
+				133AEE31246A984600162016 /* CheryzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		133AEE27246A984600162016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133AEFAE246A9A4C00162016 /* buy.png in Resources */,
+				133AEF84246A9A4C00162016 /* MainStoryboard.storyboard in Resources */,
+				133AEF98246A9A4C00162016 /* MessageTextFieldView.xib in Resources */,
+				133AEF8D246A9A4C00162016 /* CHImagePickerCollectionViewCell.xib in Resources */,
+				133AEFB0246A9A4C00162016 /* fullscreen.png in Resources */,
+				133AEFB2246A9A4C00162016 /* mute off.png in Resources */,
+				133AEFB4246A9A4C00162016 /* close.png in Resources */,
+				133AEF6F246A9A4C00162016 /* BuyersTourStoryboard.storyboard in Resources */,
+				133AEFAF246A9A4C00162016 /* requestHighlighted.png in Resources */,
+				133AEFB3246A9A4C00162016 /* mute.png in Resources */,
+				133AEFB5246A9A4D00162016 /* share_btn.png in Resources */,
+				133AEFB1246A9A4C00162016 /* request.png in Resources */,
+				133AEF92246A9A4C00162016 /* CHImagePickerCollectionView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133AEE30246A984600162016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A3F512BE504E547557BAACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheryz-CheryzTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D14A7B0E019C8393AECFDA8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cheryz-CheryzTests/Pods-Cheryz-CheryzTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E0AA10726C4CC837B499C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cheryz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		133AEE25246A984600162016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133AEF60246A9A4C00162016 /* UIColor+Cheryz.m in Sources */,
+				133AEF75246A9A4C00162016 /* CHVideoPlayer.m in Sources */,
+				133AEF2E246A9A4C00162016 /* Currency.m in Sources */,
+				133AEFA7246A9A4C00162016 /* ChatCell.m in Sources */,
+				133AEF4D246A9A4C00162016 /* CHAPILiveRequest.m in Sources */,
+				133AEF82246A9A4C00162016 /* ItemsContentCollectionViewController.m in Sources */,
+				133AEF23246A9A4C00162016 /* Wishlist.m in Sources */,
+				133AEF18246A9A4C00162016 /* Tour.m in Sources */,
+				133AEF47246A9A4C00162016 /* CHUserToken.m in Sources */,
+				133AEF49246A9A4C00162016 /* UIButton+MiddleAligning.m in Sources */,
+				133AEF8F246A9A4C00162016 /* CHPickerDelegateHelper.m in Sources */,
+				133AEF17246A9A4C00162016 /* User.m in Sources */,
+				133AEF5F246A9A4C00162016 /* LiveCommandClient+ShopperBroadcasting.m in Sources */,
+				133AEF3B246A9A4C00162016 /* NALU.m in Sources */,
+				133AEF9B246A9A4C00162016 /* CHDatePickerField.m in Sources */,
+				133AEF31246A9A4C00162016 /* MessageParent.m in Sources */,
+				133AEF7F246A9A4C00162016 /* BuyerTourViewController.m in Sources */,
+				133AEF36246A9A4C00162016 /* Price.m in Sources */,
+				133AEF64246A9A4C00162016 /* ToursAPI.m in Sources */,
+				133AEF99246A9A4C00162016 /* ShareFacebook.m in Sources */,
+				133AEF9D246A9A4C00162016 /* CHChecksCollectionView.m in Sources */,
+				133AEF69246A9A4C00162016 /* PDPViewController.m in Sources */,
+				133AEF13246A9A4C00162016 /* Order.m in Sources */,
+				133AEF5C246A9A4C00162016 /* WSVPBuffer.m in Sources */,
+				133AEF26246A9A4C00162016 /* AlertView.m in Sources */,
+				133AEFA1246A9A4C00162016 /* CheckCell.m in Sources */,
+				133AEF1F246A9A4C00162016 /* Bid.m in Sources */,
+				133AEF14246A9A4C00162016 /* TypeButton.m in Sources */,
+				133AEF91246A9A4C00162016 /* CHPickerImageField.m in Sources */,
+				133AEF9E246A9A4C00162016 /* CHImagePickerCollectionView.m in Sources */,
+				133AEF55246A9A4C00162016 /* LiveCommandClient+TourCommands.m in Sources */,
+				133AEF95246A9A4C00162016 /* CHBindableTextField.m in Sources */,
+				133AEF35246A9A4C00162016 /* Message.m in Sources */,
+				133AEF79246A9A4C00162016 /* SipSettings.m in Sources */,
+				133AEF73246A9A4C00162016 /* MessagesContentTableViewController.m in Sources */,
+				133AEF87246A9A4C00162016 /* SendRequestCell.m in Sources */,
+				133AEF39246A9A4C00162016 /* InfoRequest.m in Sources */,
+				133AEF46246A9A4C00162016 /* SessionSettings.m in Sources */,
+				133AEF4F246A9A4C00162016 /* LiveCommandClient+BuyerBroadcasting.m in Sources */,
+				133AEFA4246A9A4C00162016 /* TotalPriceCollectionReusableView.m in Sources */,
+				133AEFA5246A9A4C00162016 /* ItemContentCell.m in Sources */,
+				133AEF38246A9A4C00162016 /* GetTourByIDAPIClient.m in Sources */,
+				133AEF50246A9A4C00162016 /* RealtimeManagerHelper.m in Sources */,
+				133AEF1B246A9A4C00162016 /* Location.m in Sources */,
+				133AEF7B246A9A4C00162016 /* SipManager.m in Sources */,
+				133AEF85246A9A4C00162016 /* AboutContentTableViewController.m in Sources */,
+				133AEF68246A9A4C00162016 /* RequestPrivateTourViewController.m in Sources */,
+				133AEF6E246A9A4C00162016 /* BuyerFinishedTourViewController.m in Sources */,
+				133AEF2B246A9A4C00162016 /* TypeView.m in Sources */,
+				133AEF25246A9A4C00162016 /* TourPop.m in Sources */,
+				133AEF56246A9A4C00162016 /* BuyRequest.m in Sources */,
+				133AEF28246A9A4C00162016 /* Product.m in Sources */,
+				133AEF58246A9A4C00162016 /* LiveCommandClient.m in Sources */,
+				133AEF32246A9A4C00162016 /* NSDate+Server.m in Sources */,
+				133AEFA3246A9A4C00162016 /* InfoRequestCell.m in Sources */,
+				133AEF76246A9A4C00162016 /* BuyerTourPopupsViewController.m in Sources */,
+				133AEF29246A9A4C00162016 /* Device.m in Sources */,
+				133AEF7C246A9A4C00162016 /* BuyerTourCoordinator.m in Sources */,
+				133AEF4A246A9A4C00162016 /* CHAPIRequest.m in Sources */,
+				133AEF20246A9A4C00162016 /* TimeTour.m in Sources */,
+				133AEF71246A9A4C00162016 /* TourViewController.m in Sources */,
+				133AEF51246A9A4C00162016 /* WebSocketVideoPlayer.m in Sources */,
+				133AEE62246A99A300162016 /* CheryzSDK.m in Sources */,
+				133AEF9F246A9A4C00162016 /* MessageTextFieldView.m in Sources */,
+				133AEF70246A9A4C00162016 /* VideoView.m in Sources */,
+				133AEF67246A9A4C00162016 /* BuyerAPILiveCommands.m in Sources */,
+				133AEF40246A9A4C00162016 /* TourCoordinator.m in Sources */,
+				133AEF63246A9A4C00162016 /* AuthorizationAPI.m in Sources */,
+				133AEFA6246A9A4C00162016 /* EmbededResourceCollectionViewCell.m in Sources */,
+				133AEFAC246A9A4C00162016 /* CheckPopupCell.m in Sources */,
+				133AEF6D246A9A4C00162016 /* BuyerFinishedTourCoordinator.m in Sources */,
+				133AEF3F246A9A4C00162016 /* CHAPIResponse.m in Sources */,
+				133AEF42246A9A4C00162016 /* Router.m in Sources */,
+				133AEF2D246A9A4C00162016 /* CHDuration.m in Sources */,
+				133AEF8A246A9A4C00162016 /* CHPickerField.m in Sources */,
+				133AEF96246A9A4C00162016 /* CHPickerImageDelegateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		133AEE2E246A984600162016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133AEE38246A984600162016 /* CheryzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		133AEE35246A984600162016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 133AEE28246A984600162016 /* Cheryz */;
+			targetProxy = 133AEE34246A984600162016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		133AEE3B246A984600162016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		133AEE3C246A984600162016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		133AEE3E246A984600162016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3257B83E52965CAD750E1386 /* Pods-Cheryz.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Cheryz/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.static.library.cheryz.Cheryz;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133AEE3F246A984600162016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD44E372F0E1707B8A70552 /* Pods-Cheryz.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Cheryz/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.static.library.cheryz.Cheryz;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		133AEE41246A984600162016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C950B9BAA81EFD616BDC162C /* Pods-Cheryz-CheryzTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheryzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.static.library.cheryz.CheryzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		133AEE42246A984600162016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583136458A91B1A3E842A9FF /* Pods-Cheryz-CheryzTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheryzTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.static.library.cheryz.CheryzTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133AEE23246A984600162016 /* Build configuration list for PBXProject "Cheryz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133AEE3B246A984600162016 /* Debug */,
+				133AEE3C246A984600162016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133AEE3D246A984600162016 /* Build configuration list for PBXNativeTarget "Cheryz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133AEE3E246A984600162016 /* Debug */,
+				133AEE3F246A984600162016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		133AEE40246A984600162016 /* Build configuration list for PBXNativeTarget "CheryzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				133AEE41246A984600162016 /* Debug */,
+				133AEE42246A984600162016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 133AEE20246A984600162016 /* Project object */;
+}

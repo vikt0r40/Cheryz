@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessageTextFieldView">
+            <connections>
+                <outlet property="messageField" destination="ND3-h9-AKV" id="VOu-jy-okD"/>
+                <outlet property="messageSendButton" destination="Tag-Ja-aVJ" id="vCs-IW-cRG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your message here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ND3-h9-AKV">
+                    <color key="tintColor" red="0.93725490199999995" green="0.29803921570000003" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="15"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                </textField>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tag-Ja-aVJ">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="b5o-s9-Rgq"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="12" minY="9" maxX="9" maxY="2"/>
+                    <state key="normal" image="SendMsgButton">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.85490196080000003" green="0.85490196080000003" blue="0.85490196080000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ND3-h9-AKV" secondAttribute="bottom" id="59i-fh-qNQ"/>
+                <constraint firstItem="ND3-h9-AKV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="9" id="7aE-Jw-f81"/>
+                <constraint firstItem="ND3-h9-AKV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8Sr-jd-7Wj"/>
+                <constraint firstAttribute="trailing" secondItem="Tag-Ja-aVJ" secondAttribute="trailing" constant="3" id="EkY-W1-UvU"/>
+                <constraint firstItem="Tag-Ja-aVJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ROE-oX-GtO"/>
+                <constraint firstAttribute="bottom" secondItem="Tag-Ja-aVJ" secondAttribute="bottom" id="Zbt-jY-F2W"/>
+                <constraint firstItem="Tag-Ja-aVJ" firstAttribute="leading" secondItem="ND3-h9-AKV" secondAttribute="trailing" constant="1" id="pne-bP-0hH"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-91.5" y="-40"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="SendMsgButton" width="100" height="100"/>
+    </resources>
+</document>
