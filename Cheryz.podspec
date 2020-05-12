@@ -8,16 +8,9 @@
 
 Pod::Spec.new do |spec|
 
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  These will help people to find your library, and whilst it
-  #  can feel like a chore to fill in it's definitely to your advantage. The
-  #  summary should be tweet-length, and the description more in depth.
-  #
-
   spec.name         = "Cheryz"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of Cheryz."
+  spec.version      = "1.0.0"
+  spec.summary      = "Framework that allow users to view tours."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +18,11 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+Framework that allow users to view tours. It takes the location of the user and shows available tours. You can watch and chat with other potential buyers.
+
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/Cheryz"
+  spec.homepage     = "http://shopocircles.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,8 +33,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,7 +62,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+   spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -79,8 +74,8 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/Cheryz.git", :tag => "#{spec.version}" }
-
+  spec.source       = { :git => "https://github.com/vikt0r40/Cheryz.git", :tag => "#{spec.version}" }
+  spec.static_framework = true;
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,8 +85,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Cheryz", "Cheryz/**/*.{h,m}"
+  spec.exclude_files = "Classes/Exclude", "Pods","Pods/Classes/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -105,7 +100,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+   spec.resources = "Cheryz/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -116,22 +111,27 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+   #spec.framework  = "UIKit"
+  #spec.ios.vendored_frameworks = 'Frameworks/CheryzSDK.framework'
+  spec.frameworks = "AudioToolbox", "AVFoundation", "CFNetwork",  "CoreMedia", "UIKit", "CoreFoundation", "Foundation", "AVFoundation"
+#spec.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
-
+  spec.requires_arc    = false
+  spec.libraries       = 'stdc++'
+  spec.xcconfig = {
+        'GCC_PREPROCESSOR_DEFINITIONS' => 'PJ_AUTOCONF=1',
+        'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Headers/Public/pjsip"/**'
+  }
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
-
-  # spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+   
+   spec.dependency "AFNetworking", "~> 3.0"
+   spec.dependency "SocketRocket"
+   spec.dependency "pjsip"
 
 end
